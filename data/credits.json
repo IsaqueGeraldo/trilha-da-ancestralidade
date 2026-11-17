@@ -1,0 +1,22 @@
+{
+  "title": "Trilha da Ancestralidade",
+  "subtitle": "O Arquivo da Memória",
+  "footerNote": "Preservando histórias, saberes e memórias dos povos africanos e afro-brasileiros.",
+  "team": [
+    {
+      "name": "Isaque Lima",
+      "role": "Desenvolvimento",
+      "desc": "Responsável pela implementação técnica e desenvolvimento do jogo."
+    },
+    {
+      "name": "Jordan Mayron",
+      "role": "Idealização",
+      "desc": "Responsável pela concepção das ideias, construção das narrativas e definição das histórias que compõem a experiência."
+    },
+    {
+      "name": "Odirixi LTDA",
+      "role": "Criação e Produção",
+      "desc": "Responsável pela criação e produção do jogo."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "modes": [
+    {
+      "type": "match",
+      "badge": "Modalidade · Conectar Saberes",
+      "title": "Conecte os Saberes do Sahel",
+      "desc": "Toque em um conceito à esquerda e depois na explicação correspondente à direita.",
+      "k": [
+        "K-101",
+        "K-103",
+        "K-105",
+        "K-106"
+      ]
+    },
+    {
+      "type": "quiz",
+      "badge": "Modalidade · Responder (Escolha Única)",
+      "title": "Os Registros de Kemet",
+      "desc": "Analise cada situação vivida pelos escribas do Nilo e escolha a única alternativa historicamente correta.",
+      "qs": [
+        {
+          "q": "1. Para que servia a medição anual da cheia do Nilo com o nilômetro em Kemet?",
+          "opts": [
+            "Planejar estoques agrícolas, obras de canais e o cálculo de tributos após a vazante.",
+            "Isolar Kemet do restante da África proibindo a navegação para o sul.",
+            "Substituir completamente o cultivo de grãos pelo comércio marítimo europeu."
+          ],
+          "ans": 0
+        },
+        {
+          "q": "2. O que demonstram documentos como o Papiro Rhind e os papiros médicos copiados nas Casas da Vida?",
+          "opts": [
+            "Que a escrita hieroglífica era usada apenas para poemas funerários sem aplicação prática.",
+            "O domínio avançado de geometria, cálculo de volumes, diagnósticos clínicos e cirurgia.",
+            "Que todo o conhecimento científico de Kemet foi importado da Grécia clássica."
+          ],
+          "ans": 1
+        },
+        {
+          "q": "3. Como a historiografia compreende a relação de Kemet com seus vizinhos africanos ao sul, como Kush (Núbia)?",
+          "opts": [
+            "Não havia rotas possíveis pelo rio Nilo acima da primeira catarata.",
+            "Kemet era uma civilização africana em intenso contato comercial, cultural e político com a Núbia e Punt.",
+            "Kush e Kemet jamais compartilharam tradições religiosas ou dinastias."
+          ],
+          "ans": 1
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "badge": "Modalidade · Ordenar Linha do Tempo",
+      "title": "Cronologia da África Ocidental a Oyó",
+      "desc": "Toque nos acontecimentos do mais antigo (1º) para o mais recente (4º).",
+      "tl": [
+        "Cultura Nok desenvolve a metalurgia do ferro na África Ocidental (c. 500 a.C.)",
+        "Mansa Mussa realiza a célebre peregrinação de Mali a Meca e fortalece Tombuctu (1324)",
+        "O Império de Oyó consolida-se como potência política e militar iorubá (séculos XVII e XVIII)",
+        "Colapso de Oyó e recriação de tradições iorubás (candomblé e xangô) no Brasil (século XIX)"
+      ]
+    },
+    {
+      "type": "cloze",
+      "badge": "Modalidade · Restaurar Relato (Lacunas)",
+      "title": "A Carta dos Malungos",
+      "desc": "Toque nas palavras abaixo na ordem correta para preencher as 3 lacunas do documento histórico sobre a Travessia Atlântica.",
+      "segments": [
+        "O Brasil recebeu cerca de 4,8 milhões de africanos na diáspora. Nos navios e portos, os sobreviventes da mesma travessia firmavam laços vitalícios de ",
+        ", protegendo uns aos outros como parentes. A resistência começava já nos ",
+        ", com levantes e cantos em código, enquanto mulheres e homens preservavam ",
+        " de arroz, inhame, dendê e folhas sagradas que transformaram o Brasil."
+      ],
+      "blanks": [
+        "malungo",
+        "tumbeiros",
+        "sementes e saberes"
+      ],
+      "distractors": [
+        "isolamento",
+        "engenhos reais",
+        "moedas de prata"
+      ]
+    },
+    {
+      "type": "quiz",
+      "badge": "Modalidade · Responder (Escolha Única)",
+      "title": "Estratégias no Brasil Colonial",
+      "desc": "Escolha a única alternativa correta sobre as formas de resistência, cultura e organização sob o período colonial.",
+      "qs": [
+        {
+          "q": "1. Qual era o papel das Irmandades de Homens Pretos (como a de Nossa Senhora do Rosário)?",
+          "opts": [
+            "Atuar como espaços de solidariedade, auxílio mútuo, coroação de Reis do Congo e formação de cofres de alforria.",
+            "Proibir qualquer manifestação cultural ou musical entre trabalhadores escravizados e forros.",
+            "Cobrar impostos coloniais em nome da Coroa portuguesa nas regiões mineradoras."
+          ],
+          "ans": 0
+        },
+        {
+          "q": "2. Quem eram as chamadas “ganhadeiras” nas vilas e cidades coloniais brasileiras?",
+          "opts": [
+            "Proprietárias de grandes engenhos de cana-de-açúcar no litoral nordestino.",
+            "Mulheres negras (escravizadas ou forras) que dominavam o comércio ambulante, articulavam informações e compravam alforrias.",
+            "Funcionárias enviadas por Lisboa para fiscalizar o comércio de tecidos."
+          ],
+          "ans": 1
+        },
+        {
+          "q": "3. Como os vissungos e as línguas bantas (quimbundo, quicongo) atuaram no cotidiano colonial?",
+          "opts": [
+            "Desapareceram completamente logo na primeira década do século XVI.",
+            "Moldaram o português brasileiro e permitiram transmitir avisos, memórias e genealogias sem que os feitores entendessem.",
+            "Eram idiomas falados exclusivamente pelos governadores-gerais."
+          ],
+          "ans": 1
+        }
+      ]
+    },
+    {
+      "type": "classify",
+      "badge": "Modalidade · Classificar Estratégias",
+      "title": "O Conselho da Serra da Barriga",
+      "desc": "Classifique cada prática histórica de Palmares e dos quilombos brasileiros na categoria correta.",
+      "bins": [
+        "Defesa & Soberania Política",
+        "Produção & Redes de Troca"
+      ],
+      "items": [
+        {
+          "t": "Paliçadas, fossos ocultos com estrepes e guerrilha na mata",
+          "b": 0
+        },
+        {
+          "t": "Policultura de milho, mandioca, feijão e azeite de palma",
+          "b": 1
+        },
+        {
+          "t": "Rejeição de Zumbi e Dandara a acordos que entregassem novos fugitivos",
+          "b": 0
+        },
+        {
+          "t": "Oficinas de metalurgia para forjar enxadas e ferramentas agrícolas",
+          "b": 1
+        },
+        {
+          "t": "Parlamento e conselho político liderado por Tereza de Benguela no Quariterê",
+          "b": 0
+        },
+        {
+          "t": "Comércio de farinha, cestos e cerâmica por sal, pólvora e avisos na várzea",
+          "b": 1
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "badge": "Modalidade · Ordenar Linha do Tempo",
+      "title": "Da Abolição à Lei 10.639/2003",
+      "desc": "Ordene os marcos históricos da luta negra por cidadania e direitos no Brasil, do mais antigo ao mais recente.",
+      "tl": [
+        "Greve dos jangadeiros liderada por Dragão do Mar impede o embarque de cativos no Ceará (1881)",
+        "Assinatura da Lei Áurea após intensa pressão abolicionista negra, jurídica e popular (1888)",
+        "Fundação da Frente Negra Brasileira e expansão dos jornais da Imprensa Negra (1931)",
+        "Constituição criminaliza o racismo e garante direito às terras quilombolas (1988), seguida pela Lei 10.639 (2003)"
+      ]
+    }
+  ]
+}

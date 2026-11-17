@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Trilha da Ancestralidade — O Arquivo da Memória | Jogo Educativo</title>
+  <meta name="description" content="Atravesse 7 eras da história dos povos africanos e afro-brasileiros — da África pré-colonial, Kemet e Oyó à Travessia Atlântica, Quilombos e lutas por direitos — neste jogo narrativo e educativo.">
+  <meta name="keywords" content="Trilha da Ancestralidade, O Arquivo da Memória, história africana, cultura afro-brasileira, Lei 10.639, jogo educativo, Kemet, Reino de Oyó, Quilombo dos Palmares, Odirixi">
+  <meta name="author" content="Odirixi LTDA — Isaque Lima e Jordan Mayron">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1a110a">
+  <link rel="canonical" href="https://isaquegeraldo.github.io/trilha-da-ancestralidade/">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Trilha da Ancestralidade">
+  <meta property="og:title" content="Trilha da Ancestralidade — O Arquivo da Memória">
+  <meta property="og:description" content="Jogo narrativo interativo sobre a história e memória dos povos africanos e afro-brasileiros em 7 eras históricas.">
+  <meta property="og:url" content="https://isaquegeraldo.github.io/trilha-da-ancestralidade/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Trilha da Ancestralidade — O Arquivo da Memória">
+  <meta name="twitter:description" content="Atravesse 7 eras da história africana e afro-brasileira e reconstrua um arquivo vivo a cada decisão.">
+
+  <!-- Favicon SVG inline -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231a110a'/%3E%3Ccircle cx='32' cy='32' r='22' fill='none' stroke='%23d9a94a' stroke-width='3'/%3E%3Ccircle cx='32' cy='32' r='12' fill='none' stroke='%23d2744f' stroke-width='2.5'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%23d9a94a'/%3E%3C/svg%3E">
+
+  <!-- Dados Estruturados (Schema.org VideoGame) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "Trilha da Ancestralidade — O Arquivo da Memória",
+    "description": "Jogo narrativo educativo sobre a história e cultura dos povos africanos e afro-brasileiros em 7 eras.",
+    "inLanguage": "pt-BR",
+    "genre": ["Educational", "Interactive Fiction", "Card Strategy"],
+    "playMode": "SinglePlayer",
+    "applicationCategory": "Game",
+    "operatingSystem": "Web Browser",
+    "url": "https://isaquegeraldo.github.io/trilha-da-ancestralidade/",
+    "author": [
+      { "@type": "Person", "name": "Isaque Lima" },
+      { "@type": "Person", "name": "Jordan Mayron" }
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Odirixi LTDA"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono&display=swap">
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/game.css">
+  <link rel="stylesheet" href="./css/screens.css">
+</head>
+<body>
+  <header id="appbar">
+    <button class="ab-i" id="abSound" aria-label="Alternar áudio" title="Alternar áudio"></button>
+    <div class="ab-t" id="abTitle"></div>
+    <button class="ab-i" id="abMenu" aria-label="Menu principal" title="Menu"></button>
+  </header>
+
+  <div id="amb"></div>
+
+  <main>
+    <section class="scr on" id="home"></section>
+
+    <section class="scr" id="eras">
+      <h2>Mapa das eras</h2>
+      <div id="eraList"></div>
+      <div class="row"><button data-go="home">Voltar</button></div>
+    </section>
+
+    <section class="scr" id="game">
+      <div class="hud">
+        <div><span id="eraName" class="meta"></span> <span id="prog" class="meta"></span></div>
+      </div>
+      <div id="bars"></div>
+      <div class="stage" id="stage"></div>
+      <div class="choices" id="choices">
+        <button id="bL"></button>
+        <button id="bR"></button>
+      </div>
+      <div id="fbBox"></div>
+    </section>
+
+    <section class="scr" id="sum"></section>
+
+    <section class="scr" id="mus">
+      <h2>Museu da Memória</h2>
+      <p class="note">Toque num objeto desbloqueado para ver os detalhes.</p>
+      <div class="grid" id="musGrid"></div>
+      <div id="musDet"></div>
+      <p class="note">Fontes de partida: UNESCO, <i>História Geral da África</i>; Fundação Cultural Palmares; Arquivo Nacional.</p>
+      <div class="row"><button data-go="home">Voltar</button></div>
+    </section>
+
+    <section class="scr" id="diary">
+      <h2>Diário de escolhas</h2>
+      <div id="diaryBody"></div>
+      <div class="row"><button data-go="home">Voltar</button></div>
+    </section>
+
+    <section class="scr" id="set">
+      <h2>Configurações</h2>
+      <div class="set-card">
+        <h3>Áudio</h3>
+        <div class="li">
+          <span>Música ambiente</span>
+          <button class="sw" id="bBgm" role="switch" aria-checked="true" aria-label="Música ambiente"><i class="sw-k"></i></button>
+        </div>
+        <div class="li">
+          <span>Efeitos sonoros e voz</span>
+          <button class="sw" id="bSfx" role="switch" aria-checked="true" aria-label="Efeitos sonoros"><i class="sw-k"></i></button>
+        </div>
+        <div class="li sl-li">
+          <div class="sl-hd"><span>Volume geral do jogo</span><b id="vVolLbl">80%</b></div>
+          <input type="range" id="rVol" class="sl" min="0" max="100" step="1" value="80" aria-label="Volume geral do jogo">
+        </div>
+      </div>
+
+      <div class="set-card" style="margin-top:16px">
+        <h3>Aparência e Leitura</h3>
+        <div class="li">
+          <span>Modo claro</span>
+          <button class="sw" id="bTh" role="switch" aria-checked="false" aria-label="Modo claro"><i class="sw-k"></i></button>
+        </div>
+        <div class="li">
+          <span>Texto ampliado</span>
+          <button class="sw" id="bLg" role="switch" aria-checked="false" aria-label="Texto ampliado"><i class="sw-k"></i></button>
+        </div>
+      </div>
+
+      <h3 style="margin-top:22px">Gerenciar dados</h3>
+      <p class="note">Remove descobertas, objetos, diário e a partida em andamento deste aparelho.</p>
+      <button class="o danger" id="bWipe">Apagar progresso</button>
+      <div class="row"><button class="t" data-go="home">Voltar</button></div>
+    </section>
+
+    <section class="scr" id="arch"></section>
+    <section class="scr" id="navmenu"></section>
+    <section class="scr" id="cred"></section>
+    <section class="scr" id="puz"></section>
+  </main>
+
+  <div id="toast" role="status"></div>
+  <div id="veil"></div>
+  <div id="intro" role="dialog" aria-modal="true" aria-label="Apresentação da era"></div>
+
+  <dialog id="dlg">
+    <h3>Apagar todo o progresso?</h3>
+    <p>Descobertas, objetos, diário e a partida em andamento serão removidos deste aparelho. Esta ação não pode ser desfeita.</p>
+    <div class="row">
+      <button class="t" id="dNo">Cancelar</button>
+      <button class="p danger" id="dYes">Apagar</button>
+    </div>
+  </dialog>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

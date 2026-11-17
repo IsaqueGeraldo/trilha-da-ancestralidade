@@ -1,0 +1,382 @@
+{
+  "keys": [
+    "Memória",
+    "Cultura",
+    "Comunidade",
+    "Direitos"
+  ],
+  "knowledge": {
+    "K-101": [
+      "DOC",
+      "Souza, M. de M., África e Brasil africano; UNESCO, História Geral da África",
+      "Mais de mil línguas e sociedades muito diferentes: Axum, Mali, Songhai, Oyó, Congo, Grande Zimbábue."
+    ],
+    "K-102": [
+      "DOC",
+      "UNESCO, História Geral da África, vol. IV; Hunwick, J., Timbuktu and the Songhay Empire",
+      "Tombuctu, ligada a Mali e Songhai, foi centro de comércio e estudo, com manuscritos de astronomia, medicina, direito e poesia. Em 1324, o mansa Mussa fez a peregrinação a Meca."
+    ],
+    "K-103": [
+      "DOC",
+      "J2 (fonte global; fonte específica pendente, L-05)",
+      "A tradição oral guarda genealogias e história; griots (jeli) são seus especialistas. A história oral é fonte reconhecida pela historiografia e pela UNESCO."
+    ],
+    "K-104": [
+      "INT",
+      "J2 (interpretação)",
+      "Oralidade e escrita convivem em muitas sociedades africanas e se complementam."
+    ],
+    "K-105": [
+      "DOC",
+      "J2 (fonte global; fonte específica pendente, L-05)",
+      "Mercados conectavam regiões distantes; o comércio transaariano ligou o Norte da África ao Sahel por séculos."
+    ],
+    "K-106": [
+      "DOC",
+      "UNESCO, História Geral da África, vols. II e III; Heywood, L., Diáspora negra no Brasil",
+      "Metalurgia do ferro na África há mais de 2.500 anos, como na cultura Nok (atual Nigéria)."
+    ],
+    "K-201": [
+      "DOC",
+      "Gardiner, A., Egypt of the Pharaohs; Shaw, I. (org.), The Oxford History of Ancient Egypt",
+      "Kemet, “terra negra”: o solo escuro e fértil deixado pelas cheias do Nilo."
+    ],
+    "K-202": [
+      "DOC",
+      "J2 (fonte global; fonte específica pendente, L-05)",
+      "A agricultura dependia da cheia anual do Nilo; escribas a mediam; cheias fracas podiam causar crises."
+    ],
+    "K-203": [
+      "DOC",
+      "Shaw, I. (org.), The Oxford History of Ancient Egypt",
+      "Escribas registravam colheitas, impostos e obras; a escrita nasceu muito ligada à administração."
+    ],
+    "K-204": [
+      "DOC",
+      "J2 (fonte global; fonte específica pendente, L-05)",
+      "Papiros médicos descrevem exames, feridas e tratamentos; a matemática resolvia áreas, volumes e repartição de grãos (ex.: Papiro Rhind)."
+    ],
+    "K-205": [
+      "DOC",
+      "J2 (fonte global; fonte específica pendente, L-05)",
+      "O calendário de Kemet seguia o ciclo do Nilo e a observação da estrela Sírio."
+    ],
+    "K-206": [
+      "DOC",
+      "J2 (fonte global; fonte específica pendente, L-05)",
+      "Canais e diques exigiam trabalho coletivo organizado; as grandes obras envolviam equipes especializadas."
+    ],
+    "K-207": [
+      "DOC",
+      "J2 (fonte global; fonte específica pendente, L-05)",
+      "As Casas da Vida eram instituições de Kemet onde se copiavam textos."
+    ],
+    "K-208": [
+      "DOC",
+      "Shaw, I. (org.), The Oxford History of Ancient Egypt; UNESCO, História Geral da África, vol. II",
+      "Kemet estava em contato com Núbia, Punt e o Mediterrâneo; reis kushitas governaram o Egito na 25ª dinastia (c. 744–656 a.C.). Kemet não representa toda a África."
+    ],
+    "K-209": [
+      "INT",
+      "J2 (interpretação)",
+      "Em Kemet, religião, política e conhecimento estavam ligados."
+    ],
+    "K-301": [
+      "DOC",
+      "Law, R., The Oyo Empire, c. 1600–c. 1836",
+      "Oyó, povo iorubá da atual Nigéria, foi potência regional nos séculos XVII e XVIII; o soberano tinha o título de Alaafin e a cavalaria era famosa. A partir do início do séc. XIX o império entrou em colapso."
+    ],
+    "K-302": [
+      "DOC",
+      "Verger, P., Fluxo e refluxo; Parés, L. N., A formação do candomblé",
+      "Ifá é um sistema de saber e adivinhação dos iorubás; os orixás, como Xangô, são lembrados em Oyó. Muitas pessoas iorubás foram trazidas ao Brasil, sobretudo à Bahia no séc. XIX, e recriaram tradições que deram origem ao candomblé e, em Pernambuco, ao xangô."
+    ],
+    "K-303": [
+      "DOC",
+      "Law, R., The Oyo Empire; Dias, M. O. L. da S., Quotidiano e poder em São Paulo no século XIX",
+      "Os mercados iorubás trocavam tecidos, alimentos, metais e contas, e muitas mulheres comandavam esse comércio. Essa experiência reaparece no comércio de rua das cidades brasileiras."
+    ],
+    "K-401": [
+      "DOC",
+      "Eltis, D. & Richardson, D., Atlas of the Transatlantic Slave Trade; Alencastro, L. F., O trato dos viventes",
+      "O Brasil foi o maior destino individual do tráfico transatlântico, recebendo cerca de 4,8 milhões de africanos desembarcados entre os séculos XVI e XIX, vindos da África Ocidental, Centro-Ocidental e Oriental."
+    ],
+    "K-402": [
+      "DOC",
+      "Mintz, S. & Price, R., O nascimento da cultura afro-americana; Rodrigues, J., De costa a costa",
+      "Nos portos de embarque e nos navios, pessoas que sobreviveram juntas à travessia formavam laços de “malungo” (companheiros de jornada), criando redes de parentesco simbólico e solidariedade vitalícias."
+    ],
+    "K-403": [
+      "DOC",
+      "Rediker, M., O navio negreiro; Reis, J. J.; Gomes, F. & Carvalho, M., O alufá Rufino",
+      "A resistência começava nos barracões costeiros e a bordo dos tumbeiros, incluindo levantes armados, greves de fome, redes de auxílio mútuo e preservação mental de cantos, preces e genealogias."
+    ],
+    "K-404": [
+      "DOC",
+      "Carney, J., Black Rice; Voeks, R., Sacred Leaves of Candomblé",
+      "Mulheres e homens africanos trouxeram saberes botânicos, agrícolas e medicinais (como o manejo do arroz, dendê, inhame, quiabo e folhas sagradas) que transformaram a alimentação e a farmacopeia no Brasil."
+    ],
+    "K-405": [
+      "INT",
+      "Thornton, J., A África e os africanos na formação do mundo atlântico; Slenes, R., Na senzala, uma flor",
+      "Os africanos escravizados não chegaram como “tábula rasa”: trouxeram cosmovisões, gramáticas culturais, técnicas metalúrgicas e agrícolas que estruturaram a sociedade brasileira."
+    ],
+    "K-501": [
+      "DOC",
+      "Schwartz, S., Segredos internos; Ferlini, V., Terra, trabalho e poder",
+      "Nos engenhos de açúcar e nas minas de ouro e diamantes, africanos e seus descendentes executavam não apenas o trabalho braçal extremo, mas dominavam ofícios especializados como mestres de açúcar, ferreiros, carpinteiros e mineradores."
+    ],
+    "K-502": [
+      "DOC",
+      "Castro, Y. P., Falares africanos na Bahia; Alkmim, T. & Petter, M., Palavras da África no Brasil",
+      "As línguas bantas (como quimbundo, quicongo e umbundo) e oeste-africanas (iorubá, fon) moldaram o vocabulário, a prosódia e a sintaxe do português brasileiro, além de sobreviverem em cantos litúrgicos e de trabalho."
+    ],
+    "K-503": [
+      "DOC",
+      "Reginaldo, L., Os Rosários dos Angolas; Souza, M. de M., Reis negros no Brasil escravista",
+      "As irmandades negras (como Nossa Senhora do Rosário e São Benedito) funcionavam como espaços de solidariedade, assistência médica, sepultamento digno, coroação de reis do Congo e compra coletiva de cartas de alforria."
+    ],
+    "K-504": [
+      "DOC",
+      "Soares, C. E. L., As ganhadeiras; Silva, M. B. N., Mulheres negras no Brasil colonial",
+      "Nas vilas e cidades coloniais, escravizadas e forras “de ganho” circulavam vendendo alimentos preparados, doces, peixes e tecidos, articulando redes de informação, poupança (pecúlio) e alforria."
+    ],
+    "K-505": [
+      "INT",
+      "Lara, S. H., Campos da violência; Reis, J. J. & Silva, E., Negociação e conflito",
+      "Entre a violência extrema do cativeiro e a luta aberta, os escravizados abriram brechas cotidianas por meio de fugas estratégicas, paralisações, cultivo de roças próprias (brecha camponesa) e disputas jurídicas."
+    ],
+    "K-601": [
+      "DOC",
+      "Carneiro, E., O Quilombo dos Palmares; Gomes, F. S., Palmares: escravidão e liberdade no Atlântico Sul",
+      "O Quilombo dos Palmares, na Serra da Barriga (atual Alagoas), durou quase todo o século XVII como uma confederação de mocambos (Macaco, Subupira, Amaro, Dandara, Zumbi) que reuniu dezenas de milhares de habitantes."
+    ],
+    "K-602": [
+      "DOC",
+      "Kent, R. K., Palmares: An African State in Brazil; Anderson, R. N., The Quilombo of Palmares",
+      "A organização política de Palmares dialogava com instituições centro-africanas (como o <i>kilombo</i> militar angolano), sob a liderança de Ganga Zumba e, posteriormente, de Zumbi e lideranças femininas como Dandara."
+    ],
+    "K-603": [
+      "DOC",
+      "Funari, P. P. & Orser, C., Arqueologia da resistência escrava; Gomes, F. S., Mocambos e quilombos",
+      "Arqueologia e documentos mostram que os quilombos não eram isolados: produziam milho, mandioca, feijão, azeite de palma, cerâmica e metalurgia, mantendo trocas comerciais e redes de informação com lavradores, tavernas e senzalas."
+    ],
+    "K-604": [
+      "DOC",
+      "Gomes, F. S., Histórias de quilombolas; Reis, J. J. & Gomes, F. S., Liberdade por um fio",
+      "Existiram centenas de quilombos e mocambos em todas as regiões do Brasil — na Amazônia (Trombetas), Mato Grosso (Quariterê, liderado por Tereza de Benguela), Minas Gerais (Ambrósio), Bahia (Buraco do Tatu) e Rio de Janeiro (Leblon)."
+    ],
+    "K-605": [
+      "INT",
+      "Moura, C., Rebeliões da senzala; Nascimento, B., O conceito de quilombo e a resistência cultural negra",
+      "Mais do que refúgio geográfico, o quilombo consolidou-se na historiografia e no pensamento negro brasileiro (como em Clóvis Moura e Beatriz Nascimento) como práxis contínua de autonomia, organização comunitária e liberdade."
+    ],
+    "K-701": [
+      "DOC",
+      "Chalhoub, S., Visões da liberdade; Grinberg, K., O fiador dos brasileiros: cidadania, escravidão e direito civil",
+      "Nas décadas finais da escravidão, o movimento abolicionista contou com protagonismo negro decisivo: Luís Gama libertou centenas nos tribunais, André Rebouças e José do Patrocínio articularam a imprensa e Francisco José do Nascimento (Dragão do Mar) liderou os jangadeiros no Ceará em 1881."
+    ],
+    "K-702": [
+      "DOC",
+      "Albuquerque, W., O jogo da dissimulação; Rios, A. L. & Mattos, H., Memórias do cativeiro",
+      "A Lei Áurea (13 de maio de 1888) extinguiu formalmente a escravidão sem prever acesso à terra, educação ou indenização aos libertos, exigindo que a população negra lutasse por cidadania efetiva na jovem República."
+    ],
+    "K-703": [
+      "DOC",
+      "Domingues, P., Uma história não contada; Gomes, F. S. & Domingues, P., Experiências da emancipação",
+      "No pós-abolição, trabalhadores negros criaram sociedades beneficentes, clubes dançantes e culturais, sindicatos portuários e jornais próprios (a Imprensa Negra, como <i>O Menelick</i>, <i>A Voz da Raça</i> e <i>O Clarim da Alvorada</i>)."
+    ],
+    "K-704": [
+      "DOC",
+      "Velloso, M. P., As tradições populares na Belle Époque; Sodré, M., Samba, o dono do corpo",
+      "No início do século XX, apesar da repressão policial às rodas de samba, capoeira e religiões de matriz africana, lideranças comunitárias como as “Tias Baianas” (Tia Ciata no Rio) e mestres no Recife e em Salvador transformaram a cultura afro-brasileira em alicerce da identidade nacional."
+    ],
+    "K-705": [
+      "DOC",
+      "Pereira, A. A., O mundo negro; Alberti, V. & Pereira, A. A., Histórias do movimento negro no Brasil",
+      "Da Frente Negra Brasileira (1931) e do Teatro Experimental do Negro (1944, com Abdias do Nascimento) ao Movimento Negro Unificado (1978), a mobilização negra conquistou marcos constitucionais como a titulação de terras quilombolas (1988), a Lei 10.639/2003 e as políticas de ações afirmativas."
+    ]
+  },
+  "titles": {
+    "K-101": "A diversidade dos povos africanos",
+    "K-102": "Tombuctu, cidade do saber",
+    "K-103": "Os guardiões da tradição oral",
+    "K-104": "Palavra falada e palavra escrita",
+    "K-105": "As antigas rotas comerciais africanas",
+    "K-106": "O conhecimento da metalurgia do ferro",
+    "K-201": "Kemet, a terra negra",
+    "K-202": "O Nilo e a medida das cheias",
+    "K-203": "Os escribas e a escrita",
+    "K-204": "Papiros de medicina e matemática",
+    "K-205": "O calendário e as estrelas",
+    "K-206": "Canais, diques e grandes obras",
+    "K-207": "As Casas da Vida",
+    "K-208": "Kemet e seus vizinhos africanos",
+    "K-209": "Religião, poder e saber",
+    "K-301": "O Império de Oyó",
+    "K-302": "Ifá, os orixás e o Brasil",
+    "K-303": "Os mercados iorubás",
+    "K-401": "A dimensão da travessia atlântica",
+    "K-402": "Laços de malungo",
+    "K-403": "Resistência nos portos e navios",
+    "K-404": "Sementes, folhas e saberes na diáspora",
+    "K-405": "Memória e bagagem cultural atlântica",
+    "K-501": "Ofícios e técnicas nos engenhos e minas",
+    "K-502": "Herança linguística banta e oeste-africana",
+    "K-503": "Irmandades negras e fundos de alforria",
+    "K-504": "Ganhadeiras e o comércio urbano",
+    "K-505": "Brechas, negociação e conflito no cativeiro",
+    "K-601": "Palmares e a Serra da Barriga",
+    "K-602": "Ganga Zumba, Dandara e Zumbi",
+    "K-603": "Agricultura, forja e comércio quilombola",
+    "K-604": "Geografia dos quilombos no Brasil",
+    "K-605": "O quilombo como horizonte de liberdade",
+    "K-701": "Protagonismo negro na Abolição",
+    "K-702": "1888 e os desafios do pós-abolição",
+    "K-703": "Associações de auxílio mútuo e Imprensa Negra",
+    "K-704": "Tias baianas, capoeira, samba e terreiros",
+    "K-705": "Movimento negro, Constituição e Lei 10.639/03"
+  },
+  "categories": {
+    "K-103": "Tradição cultural",
+    "K-302": "Tradição cultural",
+    "K-104": "Interpretação",
+    "K-209": "Interpretação",
+    "K-404": "Tradição cultural",
+    "K-405": "Interpretação historiográfica",
+    "K-502": "Tradição cultural",
+    "K-505": "Interpretação historiográfica",
+    "K-605": "Interpretação historiográfica",
+    "K-704": "Tradição cultural"
+  },
+  "objects": [
+    [
+      "O-01",
+      "Tambor do griot",
+      0,
+      "K-103"
+    ],
+    [
+      "O-02",
+      "Figura de terracota (inspirada em Nok)",
+      0,
+      "K-106"
+    ],
+    [
+      "O-03",
+      "Manuscrito de Tombuctu",
+      0,
+      "K-102"
+    ],
+    [
+      "O-04",
+      "Nilômetro",
+      1,
+      "K-202"
+    ],
+    [
+      "O-05",
+      "Papiro médico",
+      1,
+      "K-204"
+    ],
+    [
+      "O-06",
+      "Papiro matemático",
+      1,
+      "K-204"
+    ],
+    [
+      "O-07",
+      "Escaravelho",
+      1,
+      "K-208"
+    ],
+    [
+      "O-08",
+      "Contas do mercado iorubá",
+      2,
+      "K-303"
+    ],
+    [
+      "O-09",
+      "Sementes e folhas da travessia",
+      3,
+      "K-404"
+    ],
+    [
+      "O-10",
+      "Amuleto de malungo",
+      3,
+      "K-402"
+    ],
+    [
+      "O-11",
+      "Cofre de alforria da Irmandade",
+      4,
+      "K-503"
+    ],
+    [
+      "O-12",
+      "Tabuleiro das ganhadeiras",
+      4,
+      "K-504"
+    ],
+    [
+      "O-13",
+      "Enxada e lança de ferro de Palmares",
+      5,
+      "K-603"
+    ],
+    [
+      "O-14",
+      "Mapa dos mocambos da Serra",
+      5,
+      "K-601"
+    ],
+    [
+      "O-15",
+      "Exemplar da Imprensa Negra",
+      6,
+      "K-703"
+    ],
+    [
+      "O-16",
+      "Pandeiro e agogô de roda",
+      6,
+      "K-704"
+    ]
+  ],
+  "eraObjects": {
+    "0": [
+      "Tambor do griot",
+      "Figura de terracota (inspirada em Nok)",
+      "Manuscrito de Tombuctu"
+    ],
+    "1": [
+      "Nilômetro",
+      "Papiro médico",
+      "Papiro matemático",
+      "Escaravelho"
+    ],
+    "2": [
+      "Contas do mercado iorubá"
+    ],
+    "3": [
+      "Amuleto de malungo",
+      "Sementes e folhas da travessia"
+    ],
+    "4": [
+      "Cofre de alforria da Irmandade",
+      "Tabuleiro das ganhadeiras"
+    ],
+    "5": [
+      "Enxada e lança de ferro de Palmares",
+      "Mapa dos mocambos da Serra"
+    ],
+    "6": [
+      "Pandeiro e agogô de roda",
+      "Exemplar da Imprensa Negra"
+    ]
+  }
+}

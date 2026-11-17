@@ -1,0 +1,2092 @@
+{
+  "eras": [
+    {
+      "name": "África pré-colonial",
+      "char": "Amara (fictícia)",
+      "intro": "Amara é uma jovem aprendiz numa cidade comercial fictícia da África Ocidental, inspirada em cidades reais como Djenné e Tombuctu.",
+      "cards": [
+        {
+          "t": "CONHECIMENTO",
+          "ch": "Amara (fictícia)",
+          "title": "Um continente, muitos mundos",
+          "text": "Na praça, um griot diz que a África é feita de desertos, florestas, savanas, cidades e reinos. Amara pergunta por onde começar.",
+          "ctx": "Fato: a África tem mais de mil línguas e sociedades muito diferentes entre si.",
+          "L": {
+            "l": "Ouvir o griot",
+            "fx": [
+              8,
+              6,
+              0,
+              0
+            ],
+            "learn": "A tradição oral guarda genealogias e história. Os griots (jeli) são especialistas nessa memória.",
+            "obj": "Tambor do griot"
+          },
+          "R": {
+            "l": "Visitar o mercado",
+            "fx": [
+              0,
+              4,
+              6,
+              0
+            ],
+            "learn": "Os mercados conectavam regiões distantes e espalhavam ideias, não só mercadorias."
+          },
+          "id": "E1-C1",
+          "k": [
+            "K-101",
+            "K-103",
+            "K-105"
+          ]
+        },
+        {
+          "t": "DECISÃO",
+          "ch": "Comerciante Sidi (fictício)",
+          "title": "Ouro e sal",
+          "text": "Caravanas atravessam o Saara levando sal e produtos do norte, e voltam com ouro. Sidi propõe investir o tesouro da cidade nessa rota.",
+          "ctx": "Fato: o comércio transaariano ligou o Norte da África ao Sahel por séculos.",
+          "L": {
+            "l": "Investir na rota",
+            "fx": [
+              0,
+              6,
+              8,
+              0
+            ],
+            "flag": "trade",
+            "learn": "O comércio trouxe riqueza e contatos, mas deixou a cidade dependente das caravanas."
+          },
+          "R": {
+            "l": "Guardar para as lavouras",
+            "fx": [
+              4,
+              0,
+              6,
+              0
+            ],
+            "flag": "farm",
+            "learn": "Celeiros fortes protegem a comunidade contra más colheitas."
+          },
+          "id": "E1-C2",
+          "k": [
+            "K-105",
+            "F-102"
+          ]
+        },
+        {
+          "t": "CONHECIMENTO",
+          "ch": "Mestre ferreira Nneka (fictícia)",
+          "title": "O fogo que transforma",
+          "text": "No ateliê, o ferro vira enxada, lança e adorno. Nneka mostra a Amara como o minério se torna ferramenta.",
+          "ctx": "Fato: há evidências de metalurgia do ferro na África há mais de 2.500 anos, como na cultura Nok (atual Nigéria).",
+          "L": {
+            "l": "Aprender a forja",
+            "fx": [
+              8,
+              0,
+              4,
+              0
+            ],
+            "learn": "A metalurgia africana é antiga e própria. Ela mudou a agricultura, a guerra e a arte.",
+            "obj": "Figura de terracota (inspirada em Nok)"
+          },
+          "R": {
+            "l": "Pedir ferramentas p/ a lavoura",
+            "fx": [
+              0,
+              4,
+              6,
+              0
+            ],
+            "learn": "Ferramentas de ferro permitem abrir mais terra e colher mais."
+          },
+          "id": "E1-C3",
+          "k": [
+            "K-106"
+          ]
+        },
+        {
+          "t": "ACONTECIMENTO",
+          "ch": "A cidade",
+          "title": "A seca",
+          "text": "Chove pouco. As caravanas atrasam e os preços sobem.",
+          "ctx": "Dramatização: eventos climáticos afetaram muitas sociedades do Sahel.",
+          "ifFlag": "trade",
+          "L": {
+            "l": "Abrir os celeiros públicos",
+            "fx": [
+              0,
+              2,
+              6,
+              0
+            ],
+            "learn": "A cidade passa o aperto com solidariedade, mas aprende a diversificar."
+          },
+          "R": {
+            "l": "Esperar as caravanas",
+            "fx": [
+              0,
+              -6,
+              -10,
+              0
+            ],
+            "learn": "A espera custa caro: uma economia só em comércio é frágil."
+          },
+          "id": "E1-C4",
+          "k": [
+            "F-103"
+          ]
+        },
+        {
+          "t": "ACONTECIMENTO",
+          "ch": "A cidade",
+          "title": "A colheita farta",
+          "text": "Os celeiros estão cheios. Sobram grãos para trocar e a cidade ganha tempo para estudar.",
+          "ctx": "Dramatização.",
+          "ifFlag": "!trade",
+          "L": {
+            "l": "Trocar o excedente",
+            "fx": [
+              0,
+              6,
+              6,
+              0
+            ],
+            "learn": "Excedente agrícola sustenta artesãos, escolas e comércio."
+          },
+          "R": {
+            "l": "Financiar estudiosos",
+            "fx": [
+              10,
+              4,
+              0,
+              0
+            ],
+            "learn": "Alimento garantido permite que muita gente se dedique ao saber."
+          },
+          "id": "E1-C5",
+          "k": [
+            "F-104"
+          ]
+        },
+        {
+          "t": "DECISÃO",
+          "ch": "Erudita Fatou (fictícia)",
+          "title": "Muralha ou biblioteca?",
+          "text": "Há verba para uma obra. Fatou quer copiar manuscritos de astronomia e direito. O capitão quer reforçar a muralha.",
+          "ctx": "Fato: Tombuctu teve centros de estudo e acervos de manuscritos que existem até hoje.",
+          "L": {
+            "l": "Copiar manuscritos",
+            "fx": [
+              12,
+              6,
+              0,
+              0
+            ],
+            "flag": "lib",
+            "learn": "Manuscritos de Tombuctu tratam de astronomia, medicina, direito e poesia. Muitos continuam preservados por famílias.",
+            "obj": "Manuscrito de Tombuctu"
+          },
+          "R": {
+            "l": "Reforçar a muralha",
+            "fx": [
+              -4,
+              0,
+              8,
+              0
+            ],
+            "learn": "Defesa protege a comunidade, mas o saber também precisa de proteção."
+          },
+          "id": "E1-C6",
+          "k": [
+            "K-102",
+            "F-105"
+          ]
+        },
+        {
+          "t": "DECISÃO",
+          "ch": "Griot Dembo (fictício)",
+          "title": "Palavra falada ou escrita?",
+          "text": "Dembo teme que a escrita substitua a memória viva. Fatou teme que histórias se percam quando os mais velhos partem.",
+          "ctx": "Interpretação: oralidade e escrita convivem em muitas sociedades africanas.",
+          "L": {
+            "l": "Fortalecer a tradição oral",
+            "fx": [
+              8,
+              8,
+              0,
+              0
+            ],
+            "learn": "A história oral é fonte reconhecida pela historiografia e pela UNESCO."
+          },
+          "R": {
+            "l": "Registrar também por escrito",
+            "fx": [
+              8,
+              0,
+              0,
+              4
+            ],
+            "learn": "Registrar não apaga a oralidade: os dois caminhos se complementam."
+          },
+          "id": "E1-C7",
+          "k": [
+            "K-103",
+            "K-104",
+            "F-106"
+          ]
+        },
+        {
+          "t": "ACONTECIMENTO",
+          "ch": "Erudita Fatou (fictícia)",
+          "title": "Eco dos manuscritos",
+          "text": "As cópias de Fatou passam de mão em mão. Uns querem guardá-las com as famílias; outros, abri-las à cidade inteira.",
+          "ctx": "Dramatização (F-107), ancorada em K-102: muitos manuscritos continuam preservados por famílias.",
+          "ifFlag": "lib",
+          "L": {
+            "l": "Guardar com as famílias",
+            "fx": [
+              6,
+              0,
+              2,
+              0
+            ],
+            "learn": "Em Tombuctu, muitos manuscritos continuam preservados por famílias."
+          },
+          "R": {
+            "l": "Abrir à cidade",
+            "fx": [
+              4,
+              4,
+              0,
+              2
+            ],
+            "learn": "Mestres, escolas e grandes coleções faziam do saber escrito um bem de várias mãos."
+          },
+          "id": "E1-C8",
+          "k": [
+            "K-102",
+            "F-107"
+          ]
+        },
+        {
+          "t": "ACONTECIMENTO",
+          "ch": "Griot Dembo (fictício)",
+          "title": "Pátio em silêncio",
+          "text": "As crianças já não pedem histórias. Dembo diz que a memória viva precisa de quem escute.",
+          "ctx": "Dramatização (F-108), ancorada em K-103 e K-104.",
+          "ifFlag": "!lib",
+          "L": {
+            "l": "Convidar os jovens à roda",
+            "fx": [
+              10,
+              4,
+              0,
+              0
+            ],
+            "learn": "A tradição oral guarda genealogias e história, e depende de gente que a transmita."
+          },
+          "R": {
+            "l": "Registrar tudo por escrito",
+            "fx": [
+              6,
+              0,
+              0,
+              0
+            ],
+            "learn": "Interpretação: registrar não apaga a oralidade; os dois caminhos se complementam."
+          },
+          "id": "E1-C9",
+          "k": [
+            "K-103",
+            "K-104",
+            "F-108"
+          ]
+        },
+        {
+          "t": "PROVAÇÃO · GUARDIÃO DA ERA",
+          "ch": "Conselho dos Anciãos e Eruditos",
+          "title": "O Enigma da Permanência",
+          "text": "Séculos passarão sobre o Sahel. Impérios mudarão de nome e fronteira. Quando o vento do deserto soprar sobre nossas muralhas, o que impedirá que nossa ciência e história desapareçam?",
+          "ctx": "Desafio Final da Era 1: a aliança entre a palavra viva dos griots, a metalurgia e os acervos escritos.",
+          "L": {
+            "l": "Unir a voz dos griots, as oficinas e os manuscritos",
+            "fx": [
+              12,
+              12,
+              10,
+              6
+            ],
+            "learn": "A complementaridade entre tradição oral, saber técnico e escrita garantiu a sobrevivência milenar das culturas oeste-africanas."
+          },
+          "R": {
+            "l": "Confiar apenas na força das muralhas de pedra",
+            "fx": [
+              -10,
+              -8,
+              -6,
+              0
+            ],
+            "learn": "Muralhas caem com o tempo; é a transmissão ativa da cultura e da memória entre gerações que mantém um povo vivo."
+          },
+          "boss": true,
+          "id": "E1-BOSS",
+          "k": [
+            "K-101",
+            "K-102",
+            "K-103",
+            "K-106"
+          ]
+        }
+      ],
+      "dlg": [
+        [
+          "Amara",
+          "Eu sou Amara, uma jovem aprendiz.",
+          "Amara (fictícia)"
+        ],
+        [
+          "Amara",
+          "Moro numa cidade comercial imaginária da África Ocidental, inspirada em cidades reais como Djenné e Tombuctu.",
+          "Amara (fictícia)"
+        ],
+        [
+          "Amara",
+          "Aqui chegam griots, comerciantes, ferreiras e estudiosos. Vem comigo ver como a cidade decide o que fazer com o que tem?",
+          "Amara (fictícia)"
+        ]
+      ]
+    },
+    {
+      "name": "Kemet",
+      "char": "Khety (fictício)",
+      "intro": "Khety é um jovem escriba em formação, em Kemet, o antigo Egito africano às margens do Nilo. Kemet é uma civilização específica, não representa toda a África.",
+      "cards": [
+        {
+          "t": "CONHECIMENTO",
+          "ch": "Khety (fictício)",
+          "title": "O dom do rio",
+          "text": "Todo ano o Nilo transborda e deixa um solo escuro e fértil. Os escribas medem a cheia para calcular a colheita e os impostos.",
+          "ctx": "Fato: a agricultura de Kemet dependia da cheia anual do Nilo.",
+          "L": {
+            "l": "Ler o nilômetro",
+            "fx": [
+              6,
+              0,
+              4,
+              0
+            ],
+            "learn": "Medir a cheia permitia planejar estoques e distribuir trabalho.",
+            "obj": "Nilômetro"
+          },
+          "R": {
+            "l": "Visitar os canais",
+            "fx": [
+              0,
+              0,
+              8,
+              0
+            ],
+            "learn": "Canais e diques exigiam trabalho coletivo organizado."
+          },
+          "id": "E2-C1",
+          "k": [
+            "K-201",
+            "K-202",
+            "K-206"
+          ]
+        },
+        {
+          "t": "CONHECIMENTO",
+          "ch": "Mestre Ptahmose (fictício)",
+          "title": "Palavras sagradas",
+          "text": "Khety treina hieróglifos em cacos de cerâmica antes de usar o papiro, que é caro.",
+          "ctx": "Fato: escrita hieroglífica e hierática, papiro feito de uma planta do Nilo.",
+          "L": {
+            "l": "Copiar textos de medicina",
+            "fx": [
+              10,
+              0,
+              4,
+              0
+            ],
+            "learn": "Papiros médicos descrevem exames, feridas e tratamentos.",
+            "obj": "Papiro médico"
+          },
+          "R": {
+            "l": "Copiar registros do celeiro",
+            "fx": [
+              4,
+              0,
+              8,
+              0
+            ],
+            "learn": "A escrita nasceu muito ligada à administração: contar grãos, gado e tributos."
+          },
+          "id": "E2-C2",
+          "k": [
+            "K-203",
+            "K-204"
+          ]
+        },
+        {
+          "t": "DECISÃO",
+          "ch": "Khety (fictício)",
+          "title": "Quem preserva o saber?",
+          "text": "Um incêndio ameaça uma sala de arquivos do templo. Há tempo de salvar só uma parte.",
+          "ctx": "Dramatização inspirada nas “Casas da Vida”, onde se copiavam textos.",
+          "L": {
+            "l": "Salvar tratados de matemática",
+            "fx": [
+              10,
+              0,
+              0,
+              0
+            ],
+            "flag": "math",
+            "learn": "A matemática de Kemet resolvia áreas, volumes e repartição de pães e grãos (ex.: Papiro Rhind).",
+            "obj": "Papiro matemático"
+          },
+          "R": {
+            "l": "Salvar o calendário e os astros",
+            "fx": [
+              10,
+              4,
+              0,
+              0
+            ],
+            "flag": "sky",
+            "learn": "O calendário de Kemet seguia o ciclo do Nilo e a observação da estrela Sírio."
+          },
+          "id": "E2-C3",
+          "k": [
+            "K-204",
+            "K-205",
+            "K-207",
+            "F-201"
+          ]
+        },
+        {
+          "t": "ACONTECIMENTO",
+          "ch": "A corte",
+          "title": "Cheia fraca",
+          "text": "O rio sobe pouco. A colheita será curta e o palácio pede mais impostos.",
+          "ctx": "Dramatização: cheias fracas podiam causar crises.",
+          "L": {
+            "l": "Abrir os celeiros do templo",
+            "fx": [
+              0,
+              0,
+              10,
+              4
+            ],
+            "learn": "Reservas coletivas eram uma forma de proteção contra fome."
+          },
+          "R": {
+            "l": "Cobrar o imposto inteiro",
+            "fx": [
+              0,
+              -4,
+              -10,
+              -6
+            ],
+            "learn": "Pressionar um povo em crise gera revolta e perda de confiança.",
+            "flag": "harsh"
+          },
+          "id": "E2-C4",
+          "k": [
+            "K-202",
+            "F-202"
+          ]
+        },
+        {
+          "t": "DECISÃO",
+          "ch": "Arquiteta Neferet (fictícia)",
+          "title": "Uma obra para gerações",
+          "text": "Neferet propõe um templo orientado pelo sol. A obra emprega muita gente e consome pedra, tempo e alimento.",
+          "ctx": "Fato: as grandes obras de Kemet envolviam equipes organizadas de trabalhadores especializados.",
+          "L": {
+            "l": "Construir com calma",
+            "fx": [
+              4,
+              10,
+              0,
+              0
+            ],
+            "learn": "A arquitetura de pedra uniu astronomia, geometria e crença."
+          },
+          "R": {
+            "l": "Priorizar casas e canais",
+            "fx": [
+              0,
+              0,
+              10,
+              4
+            ],
+            "learn": "Infraestrutura cotidiana também é patrimônio."
+          },
+          "id": "E2-C5",
+          "k": [
+            "K-206",
+            "F-203"
+          ]
+        },
+        {
+          "t": "CONHECIMENTO",
+          "ch": "Khety (fictício)",
+          "title": "O que é Kemet?",
+          "text": "Khety descobre que Kemet era uma sociedade africana em contato com Núbia, Punt e o Mediterrâneo.",
+          "ctx": "Fato: Kemet manteve relações comerciais e culturais com outras regiões africanas.",
+          "L": {
+            "l": "Conhecer os vizinhos do sul",
+            "fx": [
+              6,
+              6,
+              0,
+              2
+            ],
+            "learn": "Kemet e Núbia (Kush) tiveram contatos, trocas e conflitos. Ver Kemet como isolada seria um erro.",
+            "obj": "Escaravelho"
+          },
+          "R": {
+            "l": "Estudar os cultos do rio",
+            "fx": [
+              6,
+              6,
+              0,
+              0
+            ],
+            "learn": "Religião, política e conhecimento caminhavam juntos em Kemet."
+          },
+          "id": "E2-C6",
+          "k": [
+            "K-208",
+            "K-209"
+          ]
+        },
+        {
+          "t": "ACONTECIMENTO",
+          "ch": "A Corte (coletivo)",
+          "title": "Canais sem reparo",
+          "text": "Depois da cobrança dura, ninguém aparece para limpar os canais. A confiança na administração diminuiu.",
+          "ctx": "Dramatização (F-204), ancorada em K-202 e K-206.",
+          "ifFlag": "harsh",
+          "L": {
+            "l": "Chamar a manutenção coletiva",
+            "fx": [
+              0,
+              0,
+              8,
+              4
+            ],
+            "learn": "Canais e diques exigiam trabalho coletivo organizado."
+          },
+          "R": {
+            "l": "Adiar o reparo",
+            "fx": [
+              0,
+              0,
+              -8,
+              -4
+            ],
+            "learn": "Sem organização coletiva, canais e diques deixam de cumprir a sua função."
+          },
+          "id": "E2-C7",
+          "k": [
+            "K-202",
+            "K-206",
+            "F-204"
+          ]
+        },
+        {
+          "t": "PROVAÇÃO · GUARDIÃO DA ERA",
+          "ch": "Escribas da Casa da Vida",
+          "title": "O Espelho do Nilo",
+          "text": "Viajantes distantes tentarão contar a história de Kemet como se ela não pertencesse à África, ou como se seus monumentos fossem obra de poucos reis isolados.",
+          "ctx": "Desafio Final da Era 2: reconhecer Kemet como civilização africana sustentada pelo trabalho coletivo e ligada ao sul (Núbia/Kush).",
+          "L": {
+            "l": "Honrar o trabalho coletivo e os laços africanos com Kush",
+            "fx": [
+              12,
+              10,
+              12,
+              6
+            ],
+            "learn": "A grandeza de Kemet nasceu do manejo coletivo do Nilo, da ciência dos papiros e do intercâmbio profundo com a Núbia e o interior da África."
+          },
+          "R": {
+            "l": "Tratar Kemet como um império isolado do continente",
+            "fx": [
+              -12,
+              -8,
+              -8,
+              0
+            ],
+            "learn": "Desconectar o Egito Antigo da África foi um erro histórico criado séculos depois para negar a ancestralidade científica africana."
+          },
+          "boss": true,
+          "id": "E2-BOSS",
+          "k": [
+            "K-201",
+            "K-204",
+            "K-206",
+            "K-208"
+          ]
+        }
+      ],
+      "dlg": [
+        [
+          "Khety",
+          "Meu nome é Khety, aprendiz de escriba em Kemet, o antigo Egito africano, às margens do Nilo.",
+          "Khety (fictício)"
+        ],
+        [
+          "Khety",
+          "Kemet foi uma civilização específica: ela não resume a África inteira.",
+          "Khety (fictício)"
+        ],
+        [
+          "Khety",
+          "Entre o rio, a escrita e a cidade, tenho muito a aprender. Venha comigo?",
+          "Khety (fictício)"
+        ]
+      ]
+    },
+    {
+      "name": "Reino de Oyó",
+      "char": "Feirante e Babalaô (personagens-síntese)",
+      "intro": "Rascunho pendente de validação. Numa cidade-síntese iorubá (fictícia), você acompanha a Feirante e o Babalaô. Oyó foi potência regional nos séculos XVII e XVIII.",
+      "cards": [
+        {
+          "t": "CONHECIMENTO",
+          "ch": "Feirante (síntese)",
+          "title": "Um império iorubá",
+          "text": "No mercado, a Feirante diz que a cidade pertence a um império cujo soberano leva o título de Alaafin e cuja cavalaria é famosa.",
+          "ctx": "Fato: K-301. Nenhum Alaafin específico é citado.",
+          "L": {
+            "l": "Seguir até o mercado",
+            "fx": [
+              0,
+              6,
+              4,
+              0
+            ],
+            "learn": "Oyó, na atual Nigéria, foi potência regional nos séculos XVII e XVIII."
+          },
+          "R": {
+            "l": "Perguntar pela cavalaria",
+            "fx": [
+              4,
+              4,
+              0,
+              0
+            ],
+            "learn": "O soberano tinha o título de Alaafin, e a cavalaria era famosa. O império entrou em colapso a partir do início do século XIX."
+          },
+          "id": "E3-C1",
+          "k": [
+            "K-301"
+          ]
+        },
+        {
+          "t": "DECISÃO",
+          "ch": "Feirante (síntese)",
+          "title": "Mercado ou cavalaria?",
+          "text": "Há recursos para uma obra. A Feirante pede mais bancas e depósitos. A guarda pede reforço para a cavalaria.",
+          "ctx": "Dramatização (F-301), ancorada em K-301 e K-303.",
+          "L": {
+            "l": "Ampliar o mercado",
+            "fx": [
+              0,
+              6,
+              8,
+              0
+            ],
+            "flag": "market",
+            "learn": "Os mercados iorubás trocavam tecidos, alimentos, metais e contas, e muitas mulheres os comandavam.",
+            "obj": "Contas do mercado iorubá"
+          },
+          "R": {
+            "l": "Reforçar a cavalaria",
+            "fx": [
+              0,
+              0,
+              4,
+              2
+            ],
+            "flag": "horse",
+            "learn": "A cavalaria de Oyó era famosa. Segurança também disputa recursos com outras necessidades da cidade."
+          },
+          "id": "E3-C2",
+          "k": [
+            "K-301",
+            "K-303",
+            "F-301"
+          ]
+        },
+        {
+          "t": "DECISÃO",
+          "ch": "Babalaô (síntese)",
+          "title": "Consultar Ifá?",
+          "text": "Uma decisão difícil divide o conselho. O Babalaô propõe consultar Ifá antes de agir; outros querem decidir logo.",
+          "ctx": "Ifá é tradição viva. A cena é uma dramatização social (F-302), sem poder sobrenatural.",
+          "L": {
+            "l": "Consultar antes",
+            "fx": [
+              6,
+              4,
+              4,
+              0
+            ],
+            "flag": "ifa",
+            "learn": "Ifá é um sistema de saber e de adivinhação dos iorubás; os orixás, como Xangô, são lembrados em Oyó."
+          },
+          "R": {
+            "l": "Decidir sem consulta",
+            "fx": [
+              0,
+              -4,
+              0,
+              4
+            ],
+            "learn": "Ifá segue sendo um sistema de saber vivo, não um recurso do jogo. Decidir sem consultá-lo muda o vínculo da decisão com a tradição."
+          },
+          "id": "E3-C3",
+          "k": [
+            "K-302",
+            "F-302"
+          ]
+        },
+        {
+          "t": "ACONTECIMENTO",
+          "ch": "Feirante (síntese)",
+          "title": "O mercado cheio",
+          "text": "Mulheres de várias praças trazem tecidos e contas. O mercado vira ponto de encontro de gente de fora.",
+          "ctx": "Dramatização (F-303), ancorada em K-303.",
+          "ifFlag": "market",
+          "L": {
+            "l": "Receber os visitantes",
+            "fx": [
+              0,
+              6,
+              4,
+              0
+            ],
+            "learn": "Essa experiência reaparece nas ruas das cidades brasileiras, onde mulheres negras tinham papel central no comércio de rua."
+          },
+          "R": {
+            "l": "Manter só o comércio local",
+            "fx": [
+              0,
+              -2,
+              2,
+              0
+            ],
+            "learn": "Mercados conectavam gente e ideias; fechar-se muda quem circula e o que circula."
+          },
+          "id": "E3-C4",
+          "k": [
+            "K-303",
+            "F-303"
+          ]
+        },
+        {
+          "t": "ACONTECIMENTO",
+          "ch": "A guarda (coletivo)",
+          "title": "Verba disputada",
+          "text": "A guarda cresceu, mas o custo aparece: menos recursos chegam ao mercado e às casas.",
+          "ctx": "Dramatização (F-305), ancorada em K-301.",
+          "ifFlag": "horse",
+          "L": {
+            "l": "Remanejar para o mercado",
+            "fx": [
+              0,
+              4,
+              6,
+              0
+            ],
+            "flag": "market",
+            "learn": "Potência militar e vida cotidiana disputam os mesmos recursos."
+          },
+          "R": {
+            "l": "Manter a guarda",
+            "fx": [
+              0,
+              -4,
+              -4,
+              2
+            ],
+            "learn": "A cavalaria era famosa, mas ela é só uma parte da vida do império."
+          },
+          "id": "E3-C5",
+          "k": [
+            "K-301",
+            "F-305"
+          ]
+        },
+        {
+          "t": "DECISÃO",
+          "ch": "Babalaô e Feirante (síntese)",
+          "title": "Tradições em contato",
+          "text": "Viajantes de outros povos chegam à cidade. Alguns querem abrir festas e ritos; outros preferem guardá-los.",
+          "ctx": "Dramatização (F-304), ancorada em K-302.",
+          "L": {
+            "l": "Compartilhar a festa",
+            "fx": [
+              0,
+              8,
+              4,
+              0
+            ],
+            "learn": "Tradições iorubás seriam recriadas mais tarde no Brasil, por caminhos diferentes."
+          },
+          "R": {
+            "l": "Guardar os ritos",
+            "fx": [
+              8,
+              0,
+              0,
+              0
+            ],
+            "learn": "Guardar também é uma forma de transmitir: os ritos iorubás foram recriados no Brasil por quem os levou na memória."
+          },
+          "id": "E3-C6",
+          "k": [
+            "K-302",
+            "F-304"
+          ]
+        },
+        {
+          "t": "CONHECIMENTO",
+          "ch": "Babalaô (síntese)",
+          "title": "De Oyó ao Brasil",
+          "text": "O Babalaô fala de tradições iorubás que, no século XIX, seriam recriadas do outro lado do Atlântico.",
+          "ctx": "Fato: K-302. A cena é uma dramatização.",
+          "L": {
+            "l": "Ouvir sobre o candomblé",
+            "fx": [
+              8,
+              6,
+              0,
+              0
+            ],
+            "learn": "Muitas pessoas iorubás foram trazidas ao Brasil, sobretudo à Bahia no século XIX, e recriaram suas tradições religiosas, que originaram o candomblé."
+          },
+          "R": {
+            "l": "Ouvir sobre o xangô",
+            "fx": [
+              8,
+              6,
+              0,
+              0
+            ],
+            "learn": "Em Pernambuco, a recriação de tradições iorubás deu origem ao xangô."
+          },
+          "id": "E3-C7",
+          "k": [
+            "K-302"
+          ]
+        },
+        {
+          "t": "PROVAÇÃO · GUARDIÃO DA ERA",
+          "ch": "Conselho de Oyó",
+          "title": "A Semente Antes da Tempestade",
+          "text": "As guerras do início do século XIX abalam as estruturas de Oyó e rotas de captura se aproximam. O que o povo iorubá deve carregar consigo como fortaleza invisível?",
+          "ctx": "Desafio Final da Era 3: a resiliência dos sistemas de Ifá, dos orixás e da organização feminina dos mercados.",
+          "L": {
+            "l": "Preservar Ifá, a força dos orixás e as redes dos mercados",
+            "fx": [
+              12,
+              14,
+              10,
+              6
+            ],
+            "learn": "Mesmo sob a tragédia da diáspora, esses saberes atravessaram o oceano e recriaram o candomblé, o xangô e as redes de ganhadeiras no Brasil."
+          },
+          "R": {
+            "l": "Acreditar que o fim do império apaga a cultura",
+            "fx": [
+              -10,
+              -12,
+              -8,
+              0
+            ],
+            "learn": "O Estado de Oyó ruiu, mas sua matriz filosófica, linguística e comunitária renasceu com força imensa nas Américas."
+          },
+          "boss": true,
+          "id": "E3-BOSS",
+          "k": [
+            "K-301",
+            "K-302",
+            "K-303"
+          ]
+        }
+      ],
+      "dlg": [
+        [
+          "Feirante",
+          "Eu cuido de uma banca no mercado desta cidade iorubá imaginária.",
+          "Feirante (síntese)"
+        ],
+        [
+          "Babalaô",
+          "E eu guardo e transmito os saberes da nossa tradição.",
+          "Babalaô (síntese)"
+        ],
+        [
+          "Babalaô",
+          "Oyó foi uma potência regional nos séculos XVII e XVIII. A cidade é imaginária, mas o mundo que ela mostra foi real.",
+          "Babalaô (síntese)"
+        ]
+      ]
+    },
+    {
+      "name": "Travessia Atlântica",
+      "char": "Malungo Kofi e Naê (síntese)",
+      "intro": "No porão de um navio negreiro e no desembarque no litoral brasileiro (séculos XVII–XIX), pessoas de diferentes regiões africanas criam laços de “malungo” para sobreviver e preservar a memória.",
+      "dlg": [
+        [
+          "Kofi",
+          "Fomos arrancados de nossas terras, mas não embarcamos vazios de história.",
+          "Malungo Kofi (síntese)"
+        ],
+        [
+          "Naê",
+          "No balanço escuro do mar, quem partilha a mesma travessia torna-se “malungo” — irmão e irmã de destino.",
+          "Naê (síntese)"
+        ],
+        [
+          "Naê",
+          "Cada palavra sussurrada, cada semente escondida e cada gesto de cuidado decide o que vai renascer do outro lado do oceano.",
+          "Naê (síntese)"
+        ]
+      ],
+      "cards": [
+        {
+          "id": "E4-C1",
+          "k": [
+            "K-401",
+            "K-402"
+          ],
+          "t": "CONHECIMENTO",
+          "ch": "Malungo Kofi (síntese)",
+          "title": "Vozes na escuridão",
+          "text": "No porão, ouvem-se línguas iorubás, quimbundo, fon e macua. O medo isola, mas Kofi tenta encontrar palavras em comum com quem está ao lado.",
+          "ctx": "Conhecimento histórico: pessoas de diferentes povos criavam laços de parentesco simbólico (“malungo”) durante a travessia.",
+          "L": {
+            "l": "Firmar pacto de malungo",
+            "fx": [
+              8,
+              6,
+              10,
+              0
+            ],
+            "flag": "malungo",
+            "learn": "Os malungos juravam proteger uns aos outros por toda a vida e tratavam os filhos uns dos outros como sobrinhos.",
+            "obj": "Amuleto de malungo"
+          },
+          "R": {
+            "l": "Guardar forças em silêncio",
+            "fx": [
+              4,
+              0,
+              -4,
+              0
+            ],
+            "learn": "O isolamento enfraquecia a resistência coletiva diante das condições extremas dos tumbeiros."
+          }
+        },
+        {
+          "id": "E4-C2",
+          "k": [
+            "K-404",
+            "K-405"
+          ],
+          "t": "CONHECIMENTO",
+          "ch": "Naê (síntese)",
+          "title": "O que cabe nas tranças e nas mãos",
+          "text": "Antes do embarque, Naê ocultou grãos e guardou na memória o feitio das folhas de cura e dos cantos de sua aldeia.",
+          "ctx": "Conhecimento histórico: saberes botânicos, agrícolas e medicinais africanos atravessaram o Atlântico.",
+          "L": {
+            "l": "Preservar sementes e rezas",
+            "fx": [
+              10,
+              8,
+              4,
+              0
+            ],
+            "flag": "seeds",
+            "learn": "O manejo do arroz, do inhame, do quiabo, do dendê e das ervas medicinais remodelou o Brasil.",
+            "obj": "Sementes e folhas da travessia"
+          },
+          "R": {
+            "l": "Focar apenas na ração diária",
+            "fx": [
+              0,
+              -4,
+              4,
+              0
+            ],
+            "learn": "Sobreviver fisicamente era urgente, mas a memória técnica e espiritual também salvava vidas."
+          }
+        },
+        {
+          "id": "E4-C3",
+          "k": [
+            "K-403"
+          ],
+          "t": "DECISÃO",
+          "ch": "Marinheiro e cativos",
+          "title": "Sinais no convés",
+          "text": "Durante o banho de sol vigiado, um grupo percebe que parte da tripulação está distraída. Surge um murmúrio sobre agir agora ou organizar o apoio aos doentes.",
+          "ctx": "Conhecimento histórico: houve centenas de revoltas a bordo de navios negreiros, além de redes cotidianas de sobrevivência.",
+          "L": {
+            "l": "Cuidar dos feridos e mapear rotas",
+            "fx": [
+              6,
+              4,
+              8,
+              2
+            ],
+            "learn": "Partilhar água, curar feridas e observar as estrelas mantinha o grupo vivo até o desembarque."
+          },
+          "R": {
+            "l": "Tentar levante no convés",
+            "fx": [
+              4,
+              0,
+              -6,
+              8
+            ],
+            "flag": "revolt",
+            "learn": "As revoltas nos tumbeiros amedrontavam os traficantes e afirmavam a luta pela liberdade desde o mar."
+          }
+        },
+        {
+          "id": "E4-C4",
+          "k": [
+            "K-402",
+            "K-405"
+          ],
+          "t": "ACONTECIMENTO",
+          "ch": "Naê (síntese)",
+          "title": "A febre no porão",
+          "text": "Uma epidemia ameaça os mais jovens. Os malungos reúnem seus conhecimentos de cuidado e cantos de alento.",
+          "ctx": "Dramatização histórica: a mortalidade na travessia era altíssima, e o amparo mútuo foi decisivo.",
+          "ifFlag": "malungo",
+          "L": {
+            "l": "Entoar cantos e partilhar água",
+            "fx": [
+              8,
+              8,
+              8,
+              0
+            ],
+            "learn": "O amparo emocional e os cuidados tradicionais salvaram inúmeras vidas na travessia."
+          },
+          "R": {
+            "l": "Racionar apenas para os fortes",
+            "fx": [
+              -6,
+              -6,
+              -8,
+              0
+            ],
+            "learn": "Romper a solidariedade entre malungos feria o princípio comunitário africano."
+          }
+        },
+        {
+          "id": "E4-C5",
+          "k": [
+            "K-403"
+          ],
+          "t": "ACONTECIMENTO",
+          "ch": "Capitão do tumbeiro",
+          "title": "Ferros dobrados",
+          "text": "Após a tensão no convés, a vigilância aumenta. Como manter a comunicação entre os porões sem despertar os guardas?",
+          "ctx": "Conhecimento histórico: ritmos, cantos de trabalho e códigos linguísticos transmitiam mensagens sob o olhar dos captores.",
+          "ifFlag": "revolt",
+          "L": {
+            "l": "Comunicar por cantos em código",
+            "fx": [
+              8,
+              10,
+              4,
+              2
+            ],
+            "learn": "Cantos na língua materna permitiam combinar ações e confortar os companheiros sem que os guardas entendessem."
+          },
+          "R": {
+            "l": "Cessar toda comunicação",
+            "fx": [
+              -6,
+              -8,
+              -4,
+              0
+            ],
+            "learn": "O silêncio forçado era uma das principais armas dos traficantes para quebrar laços."
+          }
+        },
+        {
+          "id": "E4-C6",
+          "k": [
+            "K-401",
+            "K-405"
+          ],
+          "t": "DECISÃO",
+          "ch": "Cais de desembarque",
+          "title": "Porto de chegada",
+          "text": "A terra firme surge no horizonte — Recife, Salvador ou Rio de Janeiro. No mercado do cais, os compradores tentarão separar os grupos.",
+          "ctx": "Conhecimento histórico: cerca de 4,8 milhões de africanos desembarcaram nos portos brasileiros.",
+          "L": {
+            "l": "Memorizar nomes e origens de todos",
+            "fx": [
+              12,
+              4,
+              8,
+              2
+            ],
+            "learn": "Guardar quem veio no mesmo navio permitiu reencontrar parentes e malungos anos depois nas cidades e engenhos."
+          },
+          "R": {
+            "l": "Buscar contato com africanos no cais",
+            "fx": [
+              4,
+              6,
+              8,
+              4
+            ],
+            "learn": "Estivadores, canoeiros e ganhadeiras já estabelecidos no porto informavam os recém-chegados sobre a nova terra."
+          }
+        },
+        {
+          "id": "E4-C7",
+          "k": [
+            "K-404",
+            "K-405"
+          ],
+          "t": "CONHECIMENTO",
+          "ch": "Ancião do trapiche (fictício)",
+          "title": "Reconhecer a flora e o céu",
+          "text": "Ao pisar na terra americana, Naê repara nas matas ao redor da vila. Muitas folhas parecem irmãs das que cresciam na África.",
+          "ctx": "Conhecimento histórico: a identificação de espécies tropicais análogas permitiu recriar a medicina e a culinária sagrada no Brasil.",
+          "L": {
+            "l": "Catalogar as folhas da nova terra",
+            "fx": [
+              8,
+              10,
+              4,
+              0
+            ],
+            "learn": "Sem folha não há cura nem axé: os saberes botânicos africanos logo se aliaram aos conhecimentos indígenas."
+          },
+          "R": {
+            "l": "Ensinar os mais novos a observar",
+            "fx": [
+              8,
+              4,
+              6,
+              2
+            ],
+            "learn": "Conhecer a geografia, os rios e as matas seria essencial para a sobrevivência e para futuras fugas."
+          }
+        },
+        {
+          "t": "PROVAÇÃO · GUARDIÃO DA ERA",
+          "ch": "Vozes do Atlântico",
+          "title": "A Travessia da Memória",
+          "text": "Os traficantes apostavam que o oceano apagaria nomes, línguas e deuses. Ao desembarcar no cais do Brasil, o que impede que as pessoas sejam reduzidas a mercadoria?",
+          "ctx": "Desafio Final da Era 4: os laços de malungo e a bagagem intelectual e espiritual africana.",
+          "L": {
+            "l": "Os laços de malungo e os saberes trazidos na mente",
+            "fx": [
+              12,
+              10,
+              12,
+              6
+            ],
+            "learn": "O parentesco de malungo e os conhecimentos agrícolas, linguísticos e sagrados lançaram as bases do mundo afro-brasileiro."
+          },
+          "R": {
+            "l": "Esquecer o passado para sobreviver sozinho",
+            "fx": [
+              -10,
+              -10,
+              -8,
+              -4
+            ],
+            "learn": "O isolamento e o esquecimento serviam apenas ao projeto colonial de dominação."
+          },
+          "boss": true,
+          "id": "E4-BOSS",
+          "k": [
+            "K-401",
+            "K-402",
+            "K-403",
+            "K-404",
+            "K-405"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brasil Colonial",
+      "char": "Mestre Ferreiro Domingos e Luísa (síntese)",
+      "intro": "Entre os engenhos de açúcar, as minas de ouro e as ruas coloniais (séculos XVII–XVIII), africanos e crioulos articulam ofícios, irmandades, tabuleiros de ganho e estratégias de liberdade.",
+      "dlg": [
+        [
+          "Domingos",
+          "Nos engenhos e nas minas, dizem que somos apenas braços. Mas somos nós que conhecemos o ponto do açúcar e a têmpera do ferro.",
+          "Mestre Domingos (síntese)"
+        ],
+        [
+          "Luísa",
+          "E nas ruas da vila, com meu tabuleiro de ganho, circulo notícias, junto moedas de cobre e articulo alforrias na Irmandade.",
+          "Luísa Ganhadeira (síntese)"
+        ],
+        [
+          "Luísa",
+          "Sob o peso do cativeiro colonial, cada escolha entre negociação, fé e rebeldia abre uma fresta para o futuro.",
+          "Luísa Ganhadeira (síntese)"
+        ]
+      ],
+      "cards": [
+        {
+          "id": "E5-C1",
+          "k": [
+            "K-501",
+            "K-505"
+          ],
+          "t": "CONHECIMENTO",
+          "ch": "Mestre Domingos (síntese)",
+          "title": "O segredo da forja e da caldeira",
+          "text": "O feitor exige mais pressa na moenda, mas só Domingos sabe consertar os eixos de ferro e medir o cozimento do caldo de cana.",
+          "ctx": "Conhecimento histórico: africanos trouxeram domínio técnico avançado em metalurgia, mineração e manufatura açucareira.",
+          "L": {
+            "l": "Exigir folga e roça em troca do ofício",
+            "fx": [
+              4,
+              0,
+              8,
+              8
+            ],
+            "flag": "roca",
+            "learn": "O domínio de ofícios vitais dava margem para negociar a “brecha camponesa” — roças próprias para alimentar a senzala."
+          },
+          "R": {
+            "l": "Ensinar o ofício aos jovens cativos",
+            "fx": [
+              10,
+              6,
+              6,
+              0
+            ],
+            "learn": "Transmitir saberes técnicos entre gerações impedia que o conhecimento ficasse restrito e valorizava a comunidade."
+          }
+        },
+        {
+          "id": "E5-C2",
+          "k": [
+            "K-502"
+          ],
+          "t": "CONHECIMENTO",
+          "ch": "Cantadores do eito",
+          "title": "Vissungos e cantos de trabalho",
+          "text": "No corte da cana e na lavra do ouro em Minas, os trabalhadores entoam cantos em línguas bantas que o capataz não compreende.",
+          "ctx": "Conhecimento histórico: os vissungos e falares bantos moldaram o português do Brasil e serviram como língua franca nas senzalas.",
+          "L": {
+            "l": "Passar avisos de fuga na letra do canto",
+            "fx": [
+              8,
+              8,
+              4,
+              6
+            ],
+            "learn": "A música de trabalho sincronizava o esforço físico, preservava o quimbundo e o quicongo e avisava sobre a aproximação de feitores."
+          },
+          "R": {
+            "l": "Cantar genealogias e histórias de origem",
+            "fx": [
+              10,
+              10,
+              4,
+              0
+            ],
+            "learn": "Lembrar os nomes dos ancestrais em voz alta impedia a desumanização imposta pelo sistema escravista."
+          }
+        },
+        {
+          "id": "E5-C3",
+          "k": [
+            "K-503"
+          ],
+          "t": "DECISÃO",
+          "ch": "Juíza da Irmandade",
+          "title": "A Irmandade do Rosário",
+          "text": "Aos domingos, pretos escravizados e forros reúnem-se na Irmandade de Nossa Senhora do Rosário dos Homens Pretos. Há recursos limitados no cofre.",
+          "ctx": "Conhecimento histórico: irmandades negras compravam alforrias, garantiam sepultamento digno e coroavam Reis do Congo.",
+          "L": {
+            "l": "Comprar a alforria de uma jovem mãe",
+            "fx": [
+              4,
+              2,
+              8,
+              10
+            ],
+            "flag": "caixa",
+            "learn": "Os fundos de emancipação das irmandades libertaram milhares de pessoas e criaram redes jurídicas contra abusos senhoriais.",
+            "obj": "Cofre de alforria da Irmandade"
+          },
+          "R": {
+            "l": "Realizar a festa do Rei do Congo",
+            "fx": [
+              8,
+              12,
+              8,
+              0
+            ],
+            "learn": "As Congadas e coroações mantinham vivas as hierarquias políticas e diplomáticas centro-africanas dentro da colônia."
+          }
+        },
+        {
+          "id": "E5-C4",
+          "k": [
+            "K-504"
+          ],
+          "t": "DECISÃO",
+          "ch": "Luísa Ganhadeira (síntese)",
+          "title": "O tabuleiro na encruzilhada",
+          "text": "Luísa vende quitutes, peixe frito e panos da Costa na cidade. Após pagar a diária ao senhor, sobra um pequeno pecúlio.",
+          "ctx": "Conhecimento histórico: mulheres negras de ganho dominavam o comércio ambulante urbano e lideravam a compra de alforrias.",
+          "L": {
+            "l": "Guardar para a própria carta de alforria",
+            "fx": [
+              4,
+              4,
+              4,
+              10
+            ],
+            "learn": "Mulheres conquistaram a maioria das alforrias pagas nas cidades coloniais graças ao trabalho nos tabuleiros e quitandas.",
+            "obj": "Tabuleiro das ganhadeiras"
+          },
+          "R": {
+            "l": "Apoiar esconderijo de fugitivos",
+            "fx": [
+              2,
+              2,
+              10,
+              8
+            ],
+            "flag": "rede",
+            "learn": "As quitandeiras conheciam cada beco e patrulha, funcionando como elo de abastecimento e informação para os quilombos."
+          }
+        },
+        {
+          "id": "E5-C5",
+          "k": [
+            "K-505"
+          ],
+          "t": "ACONTECIMENTO",
+          "ch": "Senzala do engenho",
+          "title": "Colheita da roça própria",
+          "text": "A mandioca e o feijão plantados nos domingos nas terras marginais deram boa colheita. O senhor tenta reduzir a ração semanal do engenho.",
+          "ctx": "Conhecimento histórico: escravizados defendiam com firmeza os direitos costumeiros conquistados, como o tempo e o fruto de suas roças.",
+          "ifFlag": "roca",
+          "L": {
+            "l": "Cruzar os braços até manterem o acordo",
+            "fx": [
+              4,
+              0,
+              8,
+              10
+            ],
+            "learn": "Paralisações e fugas coletivas temporárias para o mato forçavam senhores a renegociar condições de trabalho e alimentação."
+          },
+          "R": {
+            "l": "Vender o excedente na feira da vila",
+            "fx": [
+              2,
+              6,
+              8,
+              4
+            ],
+            "learn": "A venda de produtos das roças permitia juntar moedas e estreitar laços com forros e roceiros livres."
+          }
+        },
+        {
+          "id": "E5-C6",
+          "k": [
+            "K-503",
+            "K-505"
+          ],
+          "t": "ACONTECIMENTO",
+          "ch": "Rábula da Irmandade",
+          "title": "Disputa no tribunal",
+          "text": "Um senhor recusa-se a reconhecer o pecúlio acumulado na caixa da Irmandade para libertar um irmão de ofício.",
+          "ctx": "Conhecimento histórico: escravizados acionaram a justiça colonial e imperial através de curadores e das irmandades.",
+          "ifFlag": "caixa",
+          "L": {
+            "l": "Apresentar testemunhas e recibos ao juiz",
+            "fx": [
+              8,
+              0,
+              6,
+              12
+            ],
+            "learn": "As “ações de liberdade” criaram jurisprudência e mostraram que os cativos disputavam a lei palmo a palmo."
+          },
+          "R": {
+            "l": "Organizar a retirada dele para o quilombo",
+            "fx": [
+              2,
+              4,
+              8,
+              8
+            ],
+            "learn": "Quando a via judicial era bloqueada, a rede subterrânea entre cidade e mocambo entrava em ação."
+          }
+        },
+        {
+          "id": "E5-C7",
+          "k": [
+            "K-502",
+            "K-503"
+          ],
+          "t": "CONHECIMENTO",
+          "ch": "Tia Teresa (fictícia)",
+          "title": "O toque do calundu e do batuque",
+          "text": "À noite, longe das vistas do visitador do Santo Ofício, a comunidade reúne-se para curar enfermos com ervas, toques de atabaque e invocação dos ancestrais.",
+          "ctx": "Conhecimento histórico: os calundus coloniais preservaram matrizes espirituais centro e oeste-africanas que originaram as religiões afro-brasileiras.",
+          "L": {
+            "l": "Realizar a roda de cura e memória",
+            "fx": [
+              10,
+              12,
+              8,
+              0
+            ],
+            "learn": "Nos calundus, a saúde do corpo e a integridade do espírito eram tratadas como uma só força coletiva."
+          },
+          "R": {
+            "l": "Sincretizar símbolos na capela local",
+            "fx": [
+              8,
+              8,
+              6,
+              2
+            ],
+            "learn": "Associar santos católicos a orixás, voduns e inquices foi uma estratégia inteligente de preservação sagrada sob perseguição."
+          }
+        },
+        {
+          "t": "PROVAÇÃO · GUARDIÃO DA ERA",
+          "ch": "Conselho da Irmandade e do Eito",
+          "title": "As Frestas do Sistema Colonial",
+          "text": "Diante das leis severas da colônia, alguns dizem que não há saída possível dentro das vilas e engenhos. Como manter viva a chama da autonomia?",
+          "ctx": "Desafio Final da Era 5: articulação entre irmandades, tabuleiros de ganho, ofícios e fugas.",
+          "L": {
+            "l": "Articular irmandades, ganhadeiras, roças e mocambos",
+            "fx": [
+              10,
+              10,
+              12,
+              12
+            ],
+            "learn": "A combinação inteligente entre luta jurídica, fundos de alforria, preservação linguística e apoio aos quilombos minou o escravismo."
+          },
+          "R": {
+            "l": "Aceitar as regras senhoriais sem organização",
+            "fx": [
+              -8,
+              -8,
+              -10,
+              -10
+            ],
+            "learn": "Nenhum direito ou alforria no Brasil colonial foi dádiva senhorial: tudo resultou de pressão e organização."
+          },
+          "boss": true,
+          "id": "E5-BOSS",
+          "k": [
+            "K-501",
+            "K-502",
+            "K-503",
+            "K-504",
+            "K-505"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quilombo",
+      "char": "Dandara, Zumbi e Ferreiro Acotirene (síntese)",
+      "intro": "Na Serra da Barriga (Palmares, século XVII) e em centenas de mocambos pelo Brasil, comunidades inteiras erguem sociedades autônomas com agricultura diversificada, metalurgia, defesa estratégica e diplomacia.",
+      "dlg": [
+        [
+          "Dandara",
+          "Subimos a serra não apenas para fugir do chicote, mas para plantar um mundo onde ninguém nasça propriedade de outrem.",
+          "Dandara (síntese)"
+        ],
+        [
+          "Zumbi",
+          "Palmares é uma rede de mocambos — Macaco, Subupira, Osenga, Dambrabanga — protegida por paliçadas, armadilhas e pelo conhecimento da mata.",
+          "Zumbi (síntese)"
+        ],
+        [
+          "Dandara",
+          "Aqui cultivamos milho, mandioca e feijão, forjamos o ferro e debatemos em conselho o preço da paz e o valor da liberdade.",
+          "Dandara (síntese)"
+        ]
+      ],
+      "cards": [
+        {
+          "id": "E6-C1",
+          "k": [
+            "K-601",
+            "K-603"
+          ],
+          "t": "CONHECIMENTO",
+          "ch": "Ferreiro de Subupira (síntese)",
+          "title": "Policultura e forjas na serra",
+          "text": "Enquanto a colônia planta quase só cana para exportar, nas terras altas de Palmares cultivam-se milho, mandioca, feijão, batata-doce e palmeiras, ao som das tendas de ferreiro.",
+          "ctx": "Conhecimento histórico: Palmares tinha economia autossuficiente e diversificada, gerando excedentes trocados com moradores vizinhos.",
+          "L": {
+            "l": "Forjar enxadas e pontas de lança",
+            "fx": [
+              6,
+              6,
+              10,
+              6
+            ],
+            "flag": "forja",
+            "learn": "O domínio da metalurgia permitia fundir correntes capturadas e transformá-las em ferramentas agrícolas e armas de defesa.",
+            "obj": "Enxada e lança de ferro de Palmares"
+          },
+          "R": {
+            "l": "Ampliar os paióis subterrâneos",
+            "fx": [
+              4,
+              4,
+              12,
+              4
+            ],
+            "learn": "Guardar mantimentos em esconderijos estratégicos garantia o sustento dos mocambos durante os cercos militares."
+          }
+        },
+        {
+          "id": "E6-C2",
+          "k": [
+            "K-601",
+            "K-602"
+          ],
+          "t": "CONHECIMENTO",
+          "ch": "Conselho dos Mocambos",
+          "title": "A arquitetura do Kilombo",
+          "text": "Novos grupos chegam das senzalas de Pernambuco e Alagoas, além de indígenas aliados e perseguidos pobres. É preciso integrá-los à rede de aldeias.",
+          "ctx": "Conhecimento histórico: Palmares articulava dezenas de mocambos sob um conselho político-militar inspirado no <i>kilombo</i> centro-africano.",
+          "L": {
+            "l": "Fundar novo mocambo vigiado na serra",
+            "fx": [
+              8,
+              6,
+              10,
+              6
+            ],
+            "learn": "A descentralização em várias aldeias fortificadas impedia que uma única expedição colonial destruísse Palmares.",
+            "obj": "Mapa dos mocambos da Serra"
+          },
+          "R": {
+            "l": "Treinar todos na defesa e no plantio",
+            "fx": [
+              6,
+              8,
+              8,
+              8
+            ],
+            "learn": "No quilombo, o trabalho da terra e a proteção coletiva eram responsabilidades partilhadas por homens e mulheres."
+          }
+        },
+        {
+          "id": "E6-C3",
+          "k": [
+            "K-603",
+            "K-604"
+          ],
+          "t": "DECISÃO",
+          "ch": "Mercador da várzea (fictício)",
+          "title": "Trocas na fronteira da mata",
+          "text": "Lavradores livres e taverneiros das vilas próximas oferecem pólvora, sal e ferramentas em troca da farinha, do azeite e dos cestos produzidos no quilombo.",
+          "ctx": "Conhecimento histórico: os quilombos mantinham extensas redes mercantis e de inteligência com a sociedade ao redor.",
+          "L": {
+            "l": "Trocar mantimentos por pólvora e informações",
+            "fx": [
+              6,
+              4,
+              8,
+              8
+            ],
+            "flag": "spy",
+            "learn": "Saber com antecedência quando uma tropa bandeirante ou colonial partiria do litoral salvou Palmares dezenas de vezes."
+          },
+          "R": {
+            "l": "Manter segredo absoluto das trilhas",
+            "fx": [
+              8,
+              4,
+              4,
+              4
+            ],
+            "learn": "A segurança das rotas secretas na mata fechada era vital para evitar traições."
+          }
+        },
+        {
+          "id": "E6-C4",
+          "k": [
+            "K-602",
+            "K-605"
+          ],
+          "t": "DECISÃO",
+          "ch": "Dandara e Zumbi (síntese)",
+          "title": "O Tratado do Recife (1678)",
+          "text": "O governador propõe a Ganga Zumba paz e terras no vale do Cucaú para os nascidos em Palmares, mas exige a entrega de quem fugir das senzalas dali em diante.",
+          "ctx": "Conhecimento histórico: em 1678, o tratado dividiu Palmares; Zumbi e Dandara rejeitaram um acordo que mantivesse a escravidão para os demais.",
+          "L": {
+            "l": "Rejeitar acordo que entregue irmãos",
+            "fx": [
+              10,
+              8,
+              6,
+              12
+            ],
+            "flag": "zumbi",
+            "learn": "Para Dandara e Zumbi, a liberdade não podia ser privilégio de alguns enquanto as senzalas continuassem existindo."
+          },
+          "R": {
+            "l": "Tentar ganhar tempo com a trégua",
+            "fx": [
+              4,
+              2,
+              4,
+              -6
+            ],
+            "learn": "A experiência no Cucaú mostrou que as autoridades coloniais logo violaram o acordo e tentaram reescravizar os palmarinos."
+          }
+        },
+        {
+          "id": "E6-C5",
+          "k": [
+            "K-601",
+            "K-602"
+          ],
+          "t": "ACONTECIMENTO",
+          "ch": "Vigias da Serra",
+          "title": "Fossos, estrepes e emboscadas",
+          "text": "Uma coluna de bandeirantes sobe a encosta com canhões. Os batedores que recebiam avisos da várzea já haviam preparado o terreno.",
+          "ctx": "Conhecimento histórico: Palmares derrotou mais de trinta expedições holandesas e luso-brasileiras usando guerrilha e fortificações de madeira e pedra.",
+          "ifFlag": "spy",
+          "L": {
+            "l": "Atrair a tropa para as paliçadas falsas",
+            "fx": [
+              8,
+              6,
+              10,
+              10
+            ],
+            "learn": "A engenharia militar palmarina combinava fossos ocultos com estrepes pontiagudos e mobilidade rápida na floresta."
+          },
+          "R": {
+            "l": "Evacuar famílias para mocambos do interior",
+            "fx": [
+              6,
+              4,
+              12,
+              6
+            ],
+            "learn": "Proteger os mais velhos, as crianças e as sementes garantia que o quilombo renascesse mesmo se uma aldeia fosse queimada."
+          }
+        },
+        {
+          "id": "E6-C6",
+          "k": [
+            "K-604"
+          ],
+          "t": "CONHECIMENTO",
+          "ch": "Tereza de Benguela (histórica)",
+          "title": "De Palmares ao Quariterê e ao Trombetas",
+          "text": "Mensageiros contam que o exemplo de Palmares ecoa por todo o território: no Mato Grosso, a rainha Tereza de Benguela lidera o parlamento do Quilombo do Quariterê.",
+          "ctx": "Conhecimento histórico: no século XVIII, Tereza de Benguela governou o Quariterê com sistema de conselho, cultivo de algodão, teares e forjas.",
+          "L": {
+            "l": "Fortalecer o conselho e os teares do quilombo",
+            "fx": [
+              10,
+              10,
+              8,
+              8
+            ],
+            "learn": "Do Pará ao Rio Grande do Sul, centenas de quilombos criaram instituições políticas próprias e economias vibrantes."
+          },
+          "R": {
+            "l": "Acolher indígenas e soldados desertores",
+            "fx": [
+              6,
+              8,
+              10,
+              6
+            ],
+            "learn": "Muitos quilombos, como o do Quariterê e os do Catucá em Pernambuco, articularam alianças entre negros e indígenas."
+          }
+        },
+        {
+          "id": "E6-C7",
+          "k": [
+            "K-605"
+          ],
+          "t": "CONHECIMENTO",
+          "ch": "Anciã Quilombola",
+          "title": "A semente que não morre",
+          "text": "Mesmo quando o canhão derruba a cerca de Macaco, os sobreviventes levam as sementes, os ritos e o modo de viver coletivo para novas serras e manguezais.",
+          "ctx": "Interpretação historiográfica: o quilombo permaneceu na história do Brasil como matriz de resistência e direito ao território.",
+          "L": {
+            "l": "Transmitir a memória da Serra às crianças",
+            "fx": [
+              12,
+              10,
+              8,
+              8
+            ],
+            "learn": "Mais de três séculos depois, milhares de comunidades remanescentes de quilombos seguem vivas e conquistaram direito constitucional à terra."
+          },
+          "R": {
+            "l": "Espalhar núcleos quilombolas perto das cidades",
+            "fx": [
+              6,
+              8,
+              10,
+              10
+            ],
+            "learn": "No século XIX, quilombos abolicionistas como o do Leblon e o do Jabaquara seriam decisivos para o fim da escravidão."
+          }
+        },
+        {
+          "t": "PROVAÇÃO · GUARDIÃO DA ERA",
+          "ch": "Assembleia da Serra da Barriga",
+          "title": "O Legado de Palmares",
+          "text": "Após quase um século de resistência, exércitos inteiros cercam a Serra da Barriga. O que faz de Palmares e dos quilombos brasileiros uma vitória histórica permanente?",
+          "ctx": "Desafio Final da Era 6: o quilombo como modelo civilizatório de liberdade e comunidade.",
+          "L": {
+            "l": "Multiplicar mocambos e semear a ideia de liberdade",
+            "fx": [
+              12,
+              10,
+              12,
+              12
+            ],
+            "learn": "A queda militar de Macaco em 1694 não extinguiu os quilombos: eles se multiplicaram por todo o Brasil até o presente."
+          },
+          "R": {
+            "l": "Render-se e devolver os refugiados aos engenhos",
+            "fx": [
+              -12,
+              -8,
+              -12,
+              -12
+            ],
+            "learn": "A memória de Dandara, Zumbi e Tereza de Benguela provou que a escravidão jamais foi aceita em silêncio."
+          },
+          "boss": true,
+          "id": "E6-BOSS",
+          "k": [
+            "K-601",
+            "K-602",
+            "K-603",
+            "K-604",
+            "K-605"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brasil pós-abolição",
+      "char": "Tipógrafo Teodoro e Tia Ciata (síntese)",
+      "intro": "Das lutas abolicionistas (Luís Gama, Dragão do Mar, quilombos urbanos) ao pós-1888 e século XX: imprensa negra, sociedades de auxílio mútuo, terreiros, rodas de samba e a conquista da Lei 10.639/2003.",
+      "dlg": [
+        [
+          "Teodoro",
+          "O 13 de maio de 1888 não caiu do céu: foi arrancado por greves nas fazendas, jangadeiros no mar, fugas em massa e batalhas jurídicas de gigantes como Luís Gama.",
+          "Teodoro Tipógrafo (síntese)"
+        ],
+        [
+          "Tia Ciata",
+          "E quando a República tentou nos deixar sem terra, sem escola e proibiu nossos tambores, abrimos nossas casas, fundamos clubes, terreiros e sindicatos.",
+          "Tia Ciata (síntese)"
+        ],
+        [
+          "Teodoro",
+          "Do jornal impresso no porão à Constituição e às salas de aula de hoje, cada escolha escreve a história da nossa cidadania.",
+          "Teodoro Tipógrafo (síntese)"
+        ]
+      ],
+      "cards": [
+        {
+          "id": "E7-C1",
+          "k": [
+            "K-701"
+          ],
+          "t": "CONHECIMENTO",
+          "ch": "Luís Gama e Dragão do Mar (históricos)",
+          "title": "Tribunais, jangadas e fugas em massa",
+          "text": "Nos anos 1880, a escravidão rui por dentro: em São Paulo, o ex-escravizado Luís Gama liberta centenas na justiça; no Ceará, o jangadeiro Dragão do Mar declara que no porto não se embarcam mais cativos.",
+          "ctx": "Conhecimento histórico: o abolicionismo negro combinou ações jurídicas, greves portuárias, imprensa e fugas organizadas.",
+          "L": {
+            "l": "Apoiar os jangadeiros e quilombos abolicionistas",
+            "fx": [
+              10,
+              6,
+              10,
+              12
+            ],
+            "learn": "Em 1884, a greve dos jangadeiros e a mobilização popular fizeram do Ceará a primeira província a abolir a escravidão."
+          },
+          "R": {
+            "l": "Multiplicar ações de liberdade nos tribunais",
+            "fx": [
+              10,
+              4,
+              6,
+              12
+            ],
+            "learn": "Luís Gama comprovou na justiça que milhares de africanos importados após a lei de 1831 e seus filhos eram legalmente livres."
+          }
+        },
+        {
+          "id": "E7-C2",
+          "k": [
+            "K-702"
+          ],
+          "t": "DECISÃO",
+          "ch": "Família liberta (1888)",
+          "title": "O dia 14 de maio",
+          "text": "Assinada a Lei Áurea sem reforma agrária nem indenização aos ex-escravizados, os fazendeiros oferecem manter o trabalho sob salários irrisórios e as antigas regras da senzala.",
+          "ctx": "Conhecimento histórico: no pós-abolição, libertos lutaram por autonomia familiar, acesso à roça própria e dignidade no trabalho.",
+          "L": {
+            "l": "Exigir contrato justo e autonomia familiar",
+            "fx": [
+              6,
+              4,
+              8,
+              10
+            ],
+            "flag": "autonomia",
+            "learn": "Os libertos recusaram o trabalho vigiado por feitores e o trabalho infantil e feminino nos moldes da antiga senzala."
+          },
+          "R": {
+            "l": "Migrar para a cidade e formar associação",
+            "fx": [
+              8,
+              8,
+              10,
+              8
+            ],
+            "flag": "urbano",
+            "learn": "Nas cidades, trabalhadores negros na estiva, nas ferrovias e no serviço doméstico criaram redes de auxílio mútuo."
+          }
+        },
+        {
+          "id": "E7-C3",
+          "k": [
+            "K-704"
+          ],
+          "t": "CONHECIMENTO",
+          "ch": "Tia Ciata e Mestres (históricos)",
+          "title": "A casa como embaixada cultural",
+          "text": "A polícia da Primeira República persegue capoeiristas, sambistas e terreiros. Na Pequena África do Rio, em Salvador e no Recife, as Tias e Mestres organizam a resistência.",
+          "ctx": "Conhecimento histórico: casas como a de Tia Ciata articularam religiosidade, auxílio aos recém-chegados, festa e criação do samba urbano.",
+          "L": {
+            "l": "Fazer a festa na sala e o samba no fundo",
+            "fx": [
+              10,
+              12,
+              10,
+              4
+            ],
+            "learn": "Com astúcia e prestígio comunitário, as Tias Baianas protegiam o candomblé e o samba, dando origem às escolas de samba e aos maracatus.",
+            "obj": "Pandeiro e agogô de roda"
+          },
+          "R": {
+            "l": "Articular defesa jurídica dos terreiros",
+            "fx": [
+              8,
+              8,
+              8,
+              10
+            ],
+            "learn": "Lideranças religiosas e intelectuais lutaram por décadas pelo direito constitucional à liberdade de culto afro-brasileiro."
+          }
+        },
+        {
+          "id": "E7-C4",
+          "k": [
+            "K-703"
+          ],
+          "t": "DECISÃO",
+          "ch": "Teodoro Tipógrafo (síntese)",
+          "title": "As páginas da Imprensa Negra",
+          "text": "Numa pequena oficina tipográfica, jovens redatores preparam mais uma edição de jornal (<i>O Clarim da Alvorada</i>, <i>A Voz da Raça</i>). Falta papel, mas sobram denúncias e poemas.",
+          "ctx": "Conhecimento histórico: a Imprensa Negra paulista, carioca, gaúcha e pernambucana alfabetizou, politizou e conectou comunidades negras no século XX.",
+          "L": {
+            "l": "Denunciar o racismo e abrir escolas noturnas",
+            "fx": [
+              12,
+              8,
+              8,
+              12
+            ],
+            "flag": "imprensa",
+            "learn": "As associações negras criaram bibliotecas e cursos de alfabetização próprios quando o Estado lhes negava instrução pública.",
+            "obj": "Exemplar da Imprensa Negra"
+          },
+          "R": {
+            "l": "Publicar crônicas, poesias e história negra",
+            "fx": [
+              12,
+              12,
+              6,
+              4
+            ],
+            "learn": "Jornais e revistas negros valorizaram a estética, a literatura e a memória histórica de figuras como Zumbi, Dandara e Cruz e Sousa."
+          }
+        },
+        {
+          "id": "E7-C5",
+          "k": [
+            "K-703",
+            "K-705"
+          ],
+          "t": "ACONTECIMENTO",
+          "ch": "Sindicato da Estiva e Frente Negra",
+          "title": "Vozes na praça pública",
+          "text": "Com o jornal circulando de mão em mão nos bairros operários e nos portos, milhares de pessoas querem transformar as associações recreativas em força política nacional.",
+          "ctx": "Conhecimento histórico: em 1931 surgiu a Frente Negra Brasileira, reunindo dezenas de milhares de filiados em vários estados.",
+          "ifFlag": "imprensa",
+          "L": {
+            "l": "Organizar congresso nacional e assistência",
+            "fx": [
+              10,
+              8,
+              12,
+              12
+            ],
+            "learn": "O associativismo negro oferecia atendimento médico, dentário, jurídico e formação política para enfrentar a exclusão."
+          },
+          "R": {
+            "l": "Fundar grupo de teatro e artes negras",
+            "fx": [
+              10,
+              12,
+              8,
+              8
+            ],
+            "learn": "Em 1944, Abdias do Nascimento criou o Teatro Experimental do Negro (TEN), formando atores, alfabetizando trabalhadores e debatendo direitos humanos."
+          }
+        },
+        {
+          "id": "E7-C6",
+          "k": [
+            "K-705"
+          ],
+          "t": "DECISÃO",
+          "ch": "Movimento Negro Contemporâneo",
+          "title": "O 20 de Novembro e a Constituição",
+          "text": "Nos anos 1970 e 1980, pesquisadores e militantes (como Oliveira Silveira, Lélia Gonzalez e Beatriz Nascimento) propõem o 20 de Novembro — dia de Zumbi — como Dia da Consciência Negra e levam propostas à Constituinte de 1988.",
+          "ctx": "Conhecimento histórico: a Constituição de 1988 tornou o racismo crime inafiançável e reconheceu o direito às terras quilombolas.",
+          "L": {
+            "l": "Garantir terras quilombolas e criminalizar o racismo",
+            "fx": [
+              10,
+              6,
+              10,
+              14
+            ],
+            "learn": "O Artigo 68 do ADCT e o Artigo 5º da Constituição de 1988 foram conquistas históricas da mobilização negra na Constituinte."
+          },
+          "R": {
+            "l": "Lutar pela história da África em todas as escolas",
+            "fx": [
+              14,
+              12,
+              8,
+              10
+            ],
+            "learn": "Em 2003, a Lei 10.639 tornou obrigatório o ensino de História e Cultura Afro-Brasileira e Africana na educação básica."
+          }
+        },
+        {
+          "id": "E7-C7",
+          "k": [
+            "K-705"
+          ],
+          "t": "CONHECIMENTO",
+          "ch": "Estudantes e Guardiões do Arquivo",
+          "title": "O Arquivo Vivo do Presente",
+          "text": "Hoje, nas universidades, nos quilombos, nos terreiros e na tecnologia, uma nova geração reconstrói o arquivo que tentaram apagar.",
+          "ctx": "Conhecimento histórico: as políticas de ações afirmativas e a Lei 10.639/2003 ampliaram a produção científica e cultural negra no Brasil.",
+          "L": {
+            "l": "Digitalizar acervos e ouvir os mais velhos",
+            "fx": [
+              12,
+              10,
+              10,
+              8
+            ],
+            "learn": "Quando a tecnologia se alia à tradição oral e à pesquisa histórica, a memória ancestral torna-se indestrutível."
+          },
+          "R": {
+            "l": "Partilhar este conhecimento na comunidade",
+            "fx": [
+              10,
+              10,
+              12,
+              10
+            ],
+            "learn": "Conhecer a história da África e da diáspora transforma a educação, combate o racismo e fortalece a democracia brasileira."
+          }
+        },
+        {
+          "t": "PROVAÇÃO · GUARDIÃO DO ARQUIVO",
+          "ch": "Vozes da Ancestralidade e do Futuro",
+          "title": "O Que Sobrevive Quando Tentam Apagar a História?",
+          "text": "Você atravessou milênios — do Sahel, Kemet e Oyó à Travessia, aos Engenhos, a Palmares e às lutas contemporâneas. Qual é a resposta final do Arquivo da Memória?",
+          "ctx": "Provação Final da Jornada: síntese histórica, cultural e cidadã da Trilha da Ancestralidade.",
+          "L": {
+            "l": "Sobrevive um povo que conhece sua história e luta por direitos",
+            "fx": [
+              14,
+              14,
+              14,
+              14
+            ],
+            "learn": "Memória, Cultura, Comunidade e Direitos caminharam juntos: o arquivo vivo da ancestralidade segue aberto em cada geração!"
+          },
+          "R": {
+            "l": "Deixar a memória restrita aos museus fechados",
+            "fx": [
+              -6,
+              -6,
+              -8,
+              -8
+            ],
+            "learn": "O patrimônio histórico só cumpre seu papel quando ilumina o presente e garante justiça social."
+          },
+          "boss": true,
+          "id": "E7-BOSS",
+          "k": [
+            "K-701",
+            "K-702",
+            "K-703",
+            "K-704",
+            "K-705"
+          ]
+        }
+      ]
+    }
+  ]
+}
